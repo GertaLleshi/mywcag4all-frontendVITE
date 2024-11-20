@@ -1,0 +1,669 @@
+[
+    {
+        "index": "1.1.1",
+        "title": "Non-text Content",
+        "description": "Provide text alternatives for non-text content.",
+        "guideline": "1.1",
+        "section": "1"
+    },
+    {
+        "index": "1.1.2",
+        "title": "Time-based Media",
+        "description": "Provide alternatives for time-based media.",
+        "guideline": "1.1",
+        "section": "1"
+    },
+    {
+        "index": "1.1.3",
+        "title": "Adaptable",
+        "description": "Create content that can be presented in different ways without losing information or structure.",
+        "guideline": "1.1",
+        "section": "1"
+    },
+    {
+        "index": "1.1.4",
+        "title": "Distinguishable",
+        "description": "Make it easier for users to see and hear content.",
+        "guideline": "1.1",
+        "section": "1"
+    },
+    {
+        "index": "1.2.1",
+        "title": "Audio-only and Video-only (Prerecorded)",
+        "description": "Provide alternatives for audio-only and video-only content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.2",
+        "title": "Captions (Prerecorded)",
+        "description": "Provide captions for prerecorded audio content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.3",
+        "title": "Audio Description or Media Alternative (Prerecorded)",
+        "description": "Provide audio description for video content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.4",
+        "title": "Captions (Live)",
+        "description": "Provide captions for live audio content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.5",
+        "title": "Audio Description (Prerecorded)",
+        "description": "Provide audio description for prerecorded video content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.6",
+        "title": "Sign Language (Prerecorded)",
+        "description": "Provide sign language interpretation for audio content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.7",
+        "title": "Extended Audio Description (Prerecorded)",
+        "description": "Provide extended audio description for video content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.8",
+        "title": "Media Alternative (Prerecorded)",
+        "description": "Provide alternatives for time-based media.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.2.9",
+        "title": "Audio-only (Live)",
+        "description": "Provide alternatives for audio-only content.",
+        "guideline": "1.2",
+        "section": "1"
+    },
+    {
+        "index": "1.3.1",
+        "title": "Info and Relationships",
+        "description": "Ensure information and relationships can be programmatically determined or are available in text.",
+        "guideline": "1.3",
+        "section": "1"
+    },
+    {
+        "index": "1.3.2",
+        "title": "Meaningful Sequence",
+        "description": "Ensure a correct reading sequence when the sequence affects content meaning.",
+        "guideline": "1.3",
+        "section": "1"
+    },
+    {
+        "index": "1.3.3",
+        "title": "Sensory Characteristics",
+        "description": "Don't rely solely on sensory characteristics for instructions or operation.",
+        "guideline": "1.3",
+        "section": "1"
+    },
+    {
+        "index": "1.4.1",
+        "title": "Use of Color",
+        "description": "Don't use color alone to convey information or indicate an action.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.2",
+        "title": "Audio Control",
+        "description": "Provide user controls for audio that can be heard over background sounds.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.3",
+        "title": "Contrast (Minimum)",
+        "description": "Ensure text and images have sufficient contrast ratios.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.4",
+        "title": "Resize Text",
+        "description": "Allow users to resize text up to 200% without loss of content or functionality.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.5",
+        "title": "Images of Text",
+        "description": "If images of text are used, ensure they can be resized without loss of quality.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.6",
+        "title": "Contrast (Enhanced)",
+        "description": "Ensure text and images have high contrast ratios.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.7",
+        "title": "Low or No Background Audio",
+        "description": "Don't play audio automatically unless it's essential to the functionality or the user can control it.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.8",
+        "title": "Visual Presentation",
+        "description": "Make text readable and understandable.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.9",
+        "title": "Images of Text (No Exception)",
+        "description": "Avoid using images of text, except for essential cases.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.10",
+        "title": "Reflow",
+        "description": "Ensure the content can be presented in different layouts without losing information or functionality.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.11",
+        "title": "Non-text Contrast",
+        "description": "Ensure user interface components have sufficient contrast.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.12",
+        "title": "Text Spacing",
+        "description": "Allow users to adjust text spacing for readability.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "1.4.13",
+        "title": "Content on Hover or Focus",
+        "description": "Don't cause content to appear on hover or focus unless the user chooses to activate it.",
+        "guideline": "1.4",
+        "section": "1"
+    },
+    {
+        "index": "2.1.1",
+        "title": "Keyboard",
+        "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.",
+        "level": "A",
+        "guideline": "2.1",
+        "section": "2"
+    },
+    {
+        "index": "2.1.2",
+        "title": "No Keyboard Trap",
+        "description": "If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.",
+        "level": "A",
+        "guideline": "2.1",
+        "section": "2"
+    },
+    {
+        "index": "2.1.3",
+        "title": "Keyboard (No Exception)",
+        "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.",
+        "level": "AAA",
+        "guideline": "2.1",
+        "section": "2"
+    },
+    {
+        "index": "2.1.4",
+        "title": "Character Key Shortcuts",
+        "description": "If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true: (Level A) Turn off: A mechanism is available to turn the shortcut off; (Level AA) Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g., Ctrl, Alt, etc.); (Level AAA) Active Only on Focus: The keyboard shortcut for a user interface component is only active when that component has focus.",
+        "level": "A",
+        "guideline": "2.1",
+        "section": "2"
+    },
+    {
+        "index": "2.2.1",
+        "title": "Timing Adjustable",
+        "description": "For each time limit that is set by the content, at least one of the following is true: (Level A) Turn off: The user is allowed to turn off the time limit before encountering it; or (Level AA) Adjust: The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.",
+        "level": "A",
+        "guideline": "2.2",
+        "section": "2"
+    },
+    {
+        "index": "2.2.2",
+        "title": "Pause, Stop, Hide",
+        "description": "For moving, blinking, scrolling, or auto-updating information, all of the following are true: (Level A) Moving, blinking, scrolling: For any moving, blinking, or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential; and (Level AA) Auto-updating: For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.",
+        "level": "AA",
+        "guideline": "2.2",
+        "section": "2"
+    },
+    {
+        "index": "2.2.3",
+        "title": "No Timing",
+        "description": "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events.",
+        "level": "AAA",
+        "guideline": "2.2",
+        "section": "2"
+    },
+    {
+        "index": "2.2.4",
+        "title": "Interruptions",
+        "description": "Interruptions can be postponed or suppressed by the user, except interruptions involving an emergency.",
+        "level": "AAA",
+        "guideline": "2.2",
+        "section": "2"
+    },
+    {
+        "index": "2.2.5",
+        "title": "Re-authenticating",
+        "description": "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.",
+        "level": "AAA",
+        "guideline": "2.2",
+        "section": "2"
+    },
+    {
+        "index": "2.2.6",
+        "title": "Timeouts",
+        "description": "Users are warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.",
+        "level": "AAA",
+        "guideline": "2.2",
+        "section": "2"
+    },
+    {
+        "index": "2.3.1",
+        "title": "Three Flashes or Below Threshold",
+        "description": "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.",
+        "level": "A",
+        "guideline": "2.3",
+        "section": "2"
+    },
+    {
+        "index": "2.3.2",
+        "title": "Three Flashes",
+        "description": "Web pages do not contain anything that flashes more than three times in any one second period.",
+        "level": "AAA",
+        "guideline": "2.3",
+        "section": "2"
+    },
+    {
+        "index": "2.3.3",
+        "title": "Animation from Interactions",
+        "description": "Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.",
+        "level": "AAA",
+        "guideline": "2.3",
+        "section": "2"
+    },
+    {
+        "index": "2.4.1",
+        "title": "Bypass Blocks",
+        "description": "A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.",
+        "level": "A",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.2",
+        "title": "Page Titled",
+        "description": "Web pages have titles that describe topic or purpose.",
+        "level": "A",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.3",
+        "title": "Focus Order",
+        "description": "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.",
+        "level": "A",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.4",
+        "title": "Link Purpose (In Context)",
+        "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.",
+        "level": "A",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.5",
+        "title": "Multiple Ways",
+        "description": "More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.",
+        "level": "AA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.6",
+        "title": "Headings and Labels",
+        "description": "Headings and labels describe topic or purpose.",
+        "level": "AA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.7",
+        "title": "Focus Visible",
+        "description": "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.",
+        "level": "AA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.8",
+        "title": "Location",
+        "description": "Information about the user's location within a set of Web pages is available.",
+        "level": "AAA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.9",
+        "title": "Link Purpose (Link Only)",
+        "description": "A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general.",
+        "level": "AAA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.10",
+        "title": "Section Headings",
+        "description": "Section headings are used to organize the content.",
+        "level": "AAA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.11",
+        "title": "Focus Appearance (Minimum)",
+        "description": "The visual appearance of all user interface components has a contrast ratio of at least 3:1 against adjacent color(s).",
+        "level": "AAA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.12",
+        "title": "Focus Appearance (Enhanced)",
+        "description": "The visual appearance of all user interface components has a contrast ratio of at least 4.5:1 against adjacent color(s).",
+        "level": "AAA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.4.13",
+        "title": "Focus Appearance (Minimum)",
+        "description": "The visual appearance of all user interface components has a contrast ratio of at least 6:1 against adjacent color(s).",
+        "level": "AAA",
+        "guideline": "2.4",
+        "section": "2"
+    },
+    {
+        "index": "2.5.1",
+        "title": "Pointer Gestures",
+        "description": "All functionality that uses multipoint or path-based gestures for operation can be operated with a single-point or path-based gesture without requiring a path-based gesture for operation unless a multipoint or path-based gesture is essential.",
+        "level": "A",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.2",
+        "title": "Pointer Cancellation",
+        "description": "For functionality that can be operated using a single-point input, at least one of the following is true: (Level A) No Down-Event: The down-event of the pointer is not used to execute any part of the function; and (Level A) Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion.",
+        "level": "A",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.3",
+        "title": "Label in Name",
+        "description": "For user interface components with labels that include text or images of text, the name contains the text that is presented visually.",
+        "level": "A",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.4",
+        "title": "Motion Actuation",
+        "description": "Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when: (Level A) Supported Interface: The motion is used to operate functionality through an accessibility supported interface; (Level AAA) Essential: The motion is essential for the function and doing so would invalidate the activity.",
+        "level": "A",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.5",
+        "title": "Target Size",
+        "description": "The size of the target for pointer inputs is at least 44 by 44 CSS pixels except when: (Level AAA) Dismissible: A pointer target is only visible when the pointer is over it; (Level AAA) Inline: The pointer target is in a sentence or block of text.",
+        "level": "AAA",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.6",
+        "title": "Concurrent Input Mechanisms",
+        "description": "Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.",
+        "level": "AAA",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.7",
+        "title": "Platform Accessibility Features",
+        "description": "Applications allow users to use platform accessibility features.",
+        "level": "AAA",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "2.5.8",
+        "title": "Pointer Target Spacing",
+        "description": "If a block or fine-grain adjustment is available through a user interface, then the spacing between targets is at least 2 CSS pixels for fine-grain adjustment, and at least 44 CSS pixels for blocks.",
+        "level": "AAA",
+        "guideline": "2.5",
+        "section": "2"
+    },
+    {
+        "index": "3.1.1",
+        "title": "Language of Page",
+        "description": "The default human language of each Web page can be programmatically determined.",
+        "level": "A",
+        "guideline": "3.1",
+        "section": "3"
+    },
+    {
+        "index": "3.1.2",
+        "title": "Language of Parts",
+        "description": "The human language of each passage or phrase in the content can be programmatically determined, except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.",
+        "level": "AA",
+        "guideline": "3.1",
+        "section": "3"
+    },
+    {
+        "index": "3.1.3",
+        "title": "Unusual Words",
+        "description": "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon.",
+        "level": "AA",
+        "guideline": "3.1",
+        "section": "3"
+    },
+    {
+        "index": "3.1.4",
+        "title": "Abbreviations",
+        "description": "A mechanism for identifying the expanded form or meaning of abbreviations is available.",
+        "level": "AA",
+        "guideline": "3.1",
+        "section": "3"
+    },
+    {
+        "index": "3.1.5",
+        "title": "Reading Level",
+        "description": "When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.",
+        "level": "AAA",
+        "guideline": "3.1",
+        "section": "3"
+    },
+    {
+        "index": "3.1.6",
+        "title": "Pronunciation",
+        "description": "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in a particular context, may be ambiguous without knowing the pronunciation.",
+        "level": "AAA",
+        "guideline": "3.1",
+        "section": "3"
+    },
+    {
+        "index": "3.2.1",
+        "title": "On Focus",
+        "description": "When any user interface component receives focus, it does not initiate a change of context.",
+        "level": "A",
+        "guideline": "3.2",
+        "section": "3"
+    },
+    {
+        "index": "3.2.2",
+        "title": "On Input",
+        "description": "Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.",
+        "level": "A",
+        "guideline": "3.2",
+        "section": "3"
+    },
+    {
+        "index": "3.2.3",
+        "title": "Consistent Navigation",
+        "description": "Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.",
+        "level": "AA",
+        "guideline": "3.2",
+        "section": "3"
+    },
+    {
+        "index": "3.2.4",
+        "title": "Consistent Identification",
+        "description": "Components that have the same functionality within a set of Web pages are identified consistently.",
+        "level": "AA",
+        "guideline": "3.2",
+        "section": "3"
+    },
+    {
+        "index": "3.2.5",
+        "title": "Change on Request",
+        "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes.",
+        "level": "AA",
+        "guideline": "3.2",
+        "section": "3"
+    },
+    {
+        "index": "3.2.6",
+        "title": "Error Prevention (All)",
+        "description": "For Web pages that require the user to submit information, at least one of the following is true: (Level A) Reversible: Submissions are reversible. (Level AA) Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them. (Level AAA) Confirmable: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.",
+        "level": "AAA",
+        "guideline": "3.2",
+        "section": "3"
+    },
+    {
+        "index": "3.3.1",
+        "title": "Error Identification",
+        "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.",
+        "level": "A",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.2",
+        "title": "Labels or Instructions",
+        "description": "Labels or instructions are provided when content requires user input.",
+        "level": "A",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.3",
+        "title": "Error Suggestion",
+        "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.",
+        "level": "AA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.4",
+        "title": "Error Prevention (Legal, Financial, Data)",
+        "description": "For Web pages that require the user to submit information (e.g., legal agreements, financial transactions), at least one of the following is true: (Level A) Reversible: Submissions are reversible. (Level AA) Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them. (Level AAA) Confirmable: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.",
+        "level": "AA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.5",
+        "title": "Help",
+        "description": "Context-sensitive help is available.",
+        "level": "AAA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.6",
+        "title": "Error Prevention (All)",
+        "description": "For Web pages that require the user to submit information, at least one of the following is true: (Level A) Reversible: Submissions are reversible. (Level AA) Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them. (Level AAA) Confirmable: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.",
+        "level": "AAA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.7",
+        "title": "Access to Editing",
+        "description": "Users are able to access and edit content that has been submitted on a Web page.",
+        "level": "AAA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.8",
+        "title": "Labels or Instructions (Legal, Financial, Data)",
+        "description": "If a Web page can be legally committed to a user's action or financial transaction, then the user is able to reverse or correct the action.",
+        "level": "AAA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "3.3.9",
+        "title": "Confirmation",
+        "description": "When a user action causes a legal commitment or financial transaction, the user is provided with a confirmation that includes information about the action and its consequences, and allows the user to review, reverse, or correct the action.",
+        "level": "AAA",
+        "guideline": "3.3",
+        "section": "3"
+    },
+    {
+        "index": "4.1.1",
+        "title": "Parsing",
+        "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.",
+        "level": "A",
+        "guideline": "4.1",
+        "section": "4"
+    },
+    {
+        "index": "4.1.2",
+        "title": "Name, Role, Value",
+        "description": "For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.",
+        "level": "A",
+        "guideline": "4.1",
+        "section": "4"
+    },
+    {
+        "index": "4.1.3",
+        "title": "Status Messages",
+        "description": "In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by user agents, including assistive technologies, without receiving focus.",
+        "level": "AA",
+        "guideline": "4.1",
+        "section": "4"
+    }
+]

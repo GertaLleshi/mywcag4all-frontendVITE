@@ -1,0 +1,841 @@
+[
+  {
+    "index": "1",
+    "title": "Percepibile",
+    "description": "Le informazioni e i componenti dell'interfaccia utente devono essere presentabili agli utenti in modi che possano percepire.",
+    "guidelines": [
+      {
+        "title": "Alternative testuali",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#text-alternatives",
+        "description": "Fornire alternative testuali per qualsiasi contenuto non di testo in modo che questo possa essere trasformato in altre forme fruibili secondo le necessità degli utenti come stampa a caratteri ingranditi, Braille, sintesi vocale, simboli o un linguaggio più semplice.",
+        "index": "1.1",
+        "criteria": [
+          {
+            "title": "Contenuti non testuali",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#non-text-content",
+            "wcagLevel": "A",
+            "description": "Se il contenuto non testuale è un controllo o accetta l'input degli utenti, allora ha un nome che ne descrive la finalità. (Fare riferimento al criterio di successo 4.1.2 per requisiti aggiuntivi per controlli e contenuti che accettano l'input dell'utente).",
+            "index": "1.1.1"
+          }
+        ]
+      },
+      {
+        "title": "Media temporizzati",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#time-based-media",
+        "description": "Fornire alternative per i media temporizzati.",
+        "index": "1.2",
+        "criteria": [
+          {
+            "title": "Solo audio e solo video (preregistrati)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#audio-only-and-video-only-prerecorded",
+            "wcagLevel": "A",
+            "description": "È fornita un' alternativa per il tipo di media temporizzato che presenti informazioni equivalenti al contenuto di solo audio preregistrato.",
+            "index": "1.2.1"
+          },
+          {
+            "title": "Sottotitoli (preregistrati)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#captions-prerecorded",
+            "wcagLevel": "A",
+            "description": "Per tutti i contenuti audio preregistrati presenti in tipi di media sincronizzati sono forniti sottotitoli , eccetto quando tali contenuti sono alternativi ad un contenuto testuale e sono chiaramente etichettati come tali.",
+            "index": "1.2.2"
+          },
+          {
+            "title": "Audiodescrizione o tipo di media alternativo (preregistrato))",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#audio-description-or-media-alternative-prerecorded",
+            "wcagLevel": "A",
+            "description": "Per i media sincronizzati è fornita un' alternativa ai media temporizzati , oppure una audiodescrizione dei contenuti video preregistrati , eccetto quando il contenuto audio o video è alternativo ad un contenuto testuale ed è chiaramente etichettato come tale.",
+            "index": "1.2.3"
+          },
+          {
+            "title": "Sottotitoli (in tempo reale)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#captions-live",
+            "wcagLevel": "AA",
+            "description": "Per tutti i contenuti audio in tempo reale sotto forma di media sincronizzati sono forniti sottotitoli.",
+            "index": "1.2.4"
+          },
+          {
+            "title": "Audiodescrizione (preregistrata)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#audio-description-prerecorded",
+            "wcagLevel": "AA",
+            "description": "Per tutti i contenuti video preregistrati sotto forma di media sincronizzati è fornita una audiodescrizione.",
+            "index": "1.2.5"
+          },
+          {
+            "title": "Lingua dei segni (preregistrato)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#sign-language-prerecorded",
+            "wcagLevel": "AAA",
+            "description": "Per tutti i contenuti audio preregistrati sotto forma di media sincronizzati è fornita l' interpretazione tramite lingua dei segni.",
+            "index": "1.2.6"
+          },
+          {
+            "title": "Audiodescrizione estesa (preregistrata)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#extended-audio-description-prerecorded",
+            "wcagLevel": "AAA",
+            "description": "Per tutti i contenuti video preregistrati in media sincronizzati , se le pause nell'audio principale sono troppo brevi per consentire alle audiodescrizioni di comunicare il senso del video, sono fornite delle audiodescrizioni estese.",
+            "index": "1.2.7"
+          },
+          {
+            "title": "Tipo di media alternativo (preregistrato)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#media-alternative-prerecorded",
+            "wcagLevel": "AAA",
+            "description": "Per tutti i contenuti preregistrati di media sincronizzati e per tutti i tipi di media preregistrati di solo video è fornito un tipo di media alternativo.",
+            "index": "1.2.8"
+          },
+          {
+            "title": "Solo audio (in tempo reale)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#audio-only-live",
+            "wcagLevel": "AAA",
+            "description": "Per i media temporizzati che presentano informazioni equivalenti a contenuti solo audio in tempo reale è fornita un' alternativa.",
+            "index": "1.2.9"
+          }
+        ]
+      },
+      {
+        "title": "Adattabile",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#adaptable",
+        "description": "Creare contenuti che possano essere rappresentati in modalità differenti (ad esempio, con layout più semplici), senza perdere informazioni o struttura.",
+        "index": "1.3",
+        "criteria": [
+          {
+            "title": "Informazioni e correlazioni",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#info-and-relationships",
+            "wcagLevel": "A",
+            "description": "Le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo.",
+            "index": "1.3.1"
+          },
+          {
+            "title": "Sequenza significativa",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#meaningful-sequence",
+            "wcagLevel": "A",
+            "description": "Quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente.",
+            "index": "1.3.2"
+          },
+          {
+            "title": "Caratteristiche sensoriali",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#sensory-characteristics",
+            "wcagLevel": "A",
+            "description": "Per i requisiti relativi al colore, riferirsi alla linea guida 1.4.",
+            "index": "1.3.3"
+          },
+          {
+            "title": "Orientamento",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/orientation.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#orientation",
+            "wcagLevel": "AA",
+            "description": "Esempi in cui un particolare orientamento del display può essere essenziale sono un assegno bancario, un'applicazione per pianoforte, delle diapositive per un proiettore o un televisore o un contenuto di realtà virtuale in cui un cambio di orientamento dello schermo non è applicabile.",
+            "index": "1.3.4"
+          },
+          {
+            "title": "Identificare lo scopo degli input",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#identify-input-purpose",
+            "wcagLevel": "AA",
+            "description": "Lo scopo di ciascun campo di input per le informazioni sull'utente può essere determinato programmaticamente quando:",
+            "index": "1.3.5"
+          },
+          {
+            "title": "Identificare lo scopo",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#identify-purpose",
+            "wcagLevel": "AAA",
+            "description": "Nei contenuti implementati utilizzando i linguaggi di markup, è possibile determinare programmaticamente lo scopo dei componenti dell'interfaccia utente , delle icone e delle aree.",
+            "index": "1.3.6"
+          }
+        ]
+      },
+      {
+        "title": "Distinguibile",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#distinguishable",
+        "description": "Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.",
+        "criteria": [
+          {
+            "title": "Uso del colore",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#use-of-color",
+            "wcagLevel": "A",
+            "description": "Questo criterio di successo è specifico per la percezione del colore. Altre modalità di percezione sono presenti nella linea guida 1.3 , ivi incluso l'accesso programmatico al colore e ad altre codifiche visive della presentazione.",
+            "index": "1.4.1"
+          },
+          {
+            "title": "Controllo del sonoro",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#audio-control",
+            "wcagLevel": "A",
+            "description": "Dal momento che qualsiasi contenuto che non soddisfi questo criterio di successo può interferire con la possibilità dell'utente di fruire l'intera pagina, tutto il contenuto della pagina Web (che sia utilizzato o meno per soddisfare altri criteri di successo), deve rispondere a tale criterio di successo. Consultare il requisito di conformità 5: non interferenza.",
+            "index": "1.4.2"
+          },
+          {
+            "title": "Contrasto (minimo)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#contrast-minimum",
+            "wcagLevel": "AA",
+            "description": "Testo grande e immagini contenenti testo grande devono avere un rapporto di contrasto di almeno 3:1;",
+            "index": "1.4.3"
+          },
+          {
+            "title": "Ridimensionamento del testo",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#resize-text",
+            "wcagLevel": "AA",
+            "description": "Il testo , ad eccezione dei sottotitoli e delle immagini contenenti testo , può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità.",
+            "index": "1.4.4"
+          },
+          {
+            "title": "Immagini di testo",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#images-of-text",
+            "wcagLevel": "AA",
+            "description": "L'immagine di testo può essere personalizzata visivamente per le esigenze dell'utente;",
+            "index": "1.4.5"
+          },
+          {
+            "title": "Contrasto (avanzato)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#contrast-enhanced",
+            "wcagLevel": "AAA",
+            "description": "Testo grande e immagini contenenti testo grande devono avere un rapporto di contrasto di almeno 4.5:1;",
+            "index": "1.4.6"
+          },
+          {
+            "title": "Sottofondo sonoro basso o non presente",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#low-or-no-background-audio",
+            "wcagLevel": "AAA",
+            "description": "Il sonoro non contiene suoni di sottofondo.",
+            "index": "1.4.7"
+          },
+          {
+            "title": "Presentazione visiva",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#visual-presentation",
+            "wcagLevel": "AAA",
+            "description": "Per la presentazione visiva di blocchi di testo , è disponibile una modalità per conseguire i seguenti obiettivi:",
+            "index": "1.4.8"
+          },
+          {
+            "title": "Immagini di testo (senza eccezioni)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#images-of-text-no-exception",
+            "wcagLevel": "AAA",
+            "description": "I logotipi (testo che fa parte di un logo o di un marchio) sono considerati essenziali.",
+            "index": "1.4.9"
+          },
+          {
+            "title": "Ricalcolo del flusso",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#reflow",
+            "wcagLevel": "AA",
+            "description": "Tranne per le parti del contenuto che richiedono layout bidimensionale per l'utilizzo o per comprenderne il senso.",
+            "index": "1.4.10"
+          },
+          {
+            "title": "Contrasto in contenuti non testuali",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#non-text-contrast",
+            "wcagLevel": "AA",
+            "description": "Nella presentazione visiva il rapporto di contrasto è di almeno 3:1 rispetto al colore o ai colori adiacenti per: Componenti dell'interfaccia utente Le informazioni visive richieste per identificare i componenti dell'interfaccia utente e gli stati (ad eccezione dei componenti inattivi o dove l'aspetto del componente è determinato dal programma utente e non modificato dall'autore); Oggetti grafici Parti di grafica necessarie per comprendere il contenuto, tranne quando una particolare presentazione di grafica sia essenziale per le informazioni trasmesse.",
+            "index": "1.4.11"
+          },
+          {
+            "title": "Spaziatura del testo",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#text-spacing",
+            "wcagLevel": "AA",
+            "description": "Eccezione: le lingue e le scritture che non utilizzano una o più di queste proprietà nel testo scritto sono conformi quando si può applicare il criterio alle sole proprietà esistenti per quella combinazione di lingua e scrittura.",
+            "index": "1.4.12"
+          },
+          {
+            "title": "Contenuto con Hover o Focus",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#content-on-hover-or-focus",
+            "wcagLevel": "AA",
+            "description": "Eccezione: la presentazione visiva del contenuto aggiuntivo è controllata dal programma utente e non viene modificata dall'autore.",
+            "index": "1.4.13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "2",
+    "title": "Operabile",
+    "description": "I componenti dell'interfaccia utente e la navigazione devono essere operabili.",
+    "guidelines": [
+      {
+        "title": "Accessibile da tastiera",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#keyboard-accessible",
+        "description": "Rendere disponibili tutte le funzionalità tramite tastiera.",
+        "criteria": [
+          {
+            "title": "Tastiera",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#keyboard",
+            "wcagLevel": "A",
+            "description": "Questa eccezione si riferisce alla funzionalità di fondo, non alla tecnica di input. Per esempio, usando la scrittura a mano per immettere del testo, la tecnica di input (scrittura a mano) richiede un input che dipende dal percorso tracciato mentre la funzionalità di fondo (immissione di testo) non lo richiede.",
+            "index": "2.1.1"
+          },
+          {
+            "title": "Nessun impedimento all'uso della tastiera",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#no-keyboard-trap",
+            "wcagLevel": "A",
+            "description": "Dal momento che qualsiasi contenuto che non rispetti questo criterio di successo può interferire con l'utilizzo da parte dell'utente dell'intera pagina, tutti i contenuti della pagina web (che siano usati per rispettare altri criteri di successo o meno) devono rispettare questo criterio di successo. Consultare il requisito di conformità 5: non interferenza.",
+            "index": "2.1.2"
+          },
+          {
+            "title": "Tastiera (nessuna eccezione)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#keyboard-no-exception",
+            "wcagLevel": "AAA",
+            "description": "Tutte le funzionalità del contenuto sono utilizzabili tramite un' interfaccia di tastiera senza richiedere tempi specifici per la pressione dei singoli tasti.",
+            "index": "2.1.3"
+          },
+          {
+            "title": "Tasti di scelta rapida",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#character-key-shortcuts",
+            "wcagLevel": "A",
+            "description": "Se nel contenuto viene implementata una scorciatoia da tastiera utilizzando sole lettere (maiuscole e minuscole), segni di punteggiatura, numeri o simboli, allora è vera almeno una delle seguenti condizioni: Disattivazione È disponibile un meccanismo per disattivare la scorciatoia; Rimappatura È disponibile un meccanismo per rimappare la scorciatoia in modo che usi uno o più caratteri non stampabili della tastiera (ad esempio Ctrl, Alt, ecc.); Attivazione solo al focus La scorciatoia da tastiera per un componente dell'interfaccia utente è attiva solo quando questo è attivo.",
+            "index": "2.1.4"
+          }
+        ]
+      },
+      {
+        "title": "Adeguata disponibilità di tempo",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/enough-time.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#enough-time",
+        "description": "Fornire agli utenti tempo sufficiente per leggere e utilizzare i contenuti.",
+        "index": "2.2",
+        "criteria": [
+          {
+            "title": "Regolazione tempi di esecuzione",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#timing-adjustable",
+            "wcagLevel": "A",
+            "description": "All'utente è consentito disattivare il limite di tempo prima di raggiungerlo; oppure",
+            "index": "2.2.1"
+          },
+          {
+            "title": "Pausa, stop, nascondi",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#pause-stop-hide",
+            "wcagLevel": "A",
+            "description": "Per qualsiasi movimento, lampeggiamento o scorrimento di informazioni che (1) si avvia automaticamente, (2) dura più di cinque secondi e (3) è presentato in parallelo con altro contenuto, è presente un meccanismo per metterlo in pausa , interromperlo o nasconderlo, a meno che il movimento, il lampeggiamento o lo scorrimento siano parte essenziale dell'attività; e",
+            "index": "2.2.2"
+          },
+          {
+            "title": "Nessun tempo di esecuzione",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/no-timing.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#no-timing",
+            "wcagLevel": "AAA",
+            "description": "Le temporizzazioni non sono parti essenziali dell'evento o dell'attività presentata dal contenuto, ad eccezione fatta dei tipi di media sincronizzati e degli eventi in tempo reale.",
+            "index": "2.2.3"
+          },
+          {
+            "title": "Interruzioni",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#interruptions",
+            "wcagLevel": "AAA",
+            "description": "Le interruzioni possono essere rinviate o annullate dall'utente ad eccezione di quelle che riguardano un' emergenza.",
+            "index": "2.2.4"
+          },
+          {
+            "title": "Riautenticazione",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#re-authenticating",
+            "wcagLevel": "AAA",
+            "description": "Quando una sessione autenticata scade, l'utente può continuare l'attività senza perdita di dati dopo essersi autenticato nuovamente.",
+            "index": "2.2.5"
+          },
+          {
+            "title": "Termine del tempo",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#timeouts",
+            "wcagLevel": "AAA",
+            "description": "Le norme sulla privacy potrebbero richiedere il consenso esplicito dell'utente prima che questo sia identificato autenticandolo e prima che i dati dell'utente vengano conservati. Nei casi in cui l'utente sia un minore può essere possibile richiedere un consenso esplicito nella maggior parte delle giurisdizioni, paesi o regioni. Si consiglia la consulenza di professionisti della privacy e consulenti legali quando si prende in considerazione di soddisfare questo criterio di successo mediante la conservazione dei dati.",
+            "index": "2.2.6"
+          }
+        ]
+      },
+      {
+        "title": "Convulsioni e reazioni fisiche",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/seizures-and-physical-reactions.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#seizures-and-physical-reactions",
+        "description": "Non sviluppare contenuti con tecniche che sia noto causino attacchi epilettici o reazioni fisiche.",
+        "index": "2.3",
+        "criteria": [
+          {
+            "title": "Tre lampeggiamenti o inferiore alla soglia",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#three-flashes-or-below-threshold",
+            "wcagLevel": "A",
+            "description": "Dal momento che qualsiasi contenuto che non soddisfa questo criterio di successo può interferire con la capacità di un utente di utilizzare l'intera pagina, tutto il contenuto della pagina Web (sia che venga utilizzato o meno per soddisfare altri criteri di successo) deve rispondere a questo criterio di successo. Consultare il requisito di conformità 5: non interferenza.",
+            "index": "2.3.1"
+          },
+          {
+            "title": "Tre lampeggiamenti",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#three-flashes",
+            "wcagLevel": "AAA",
+            "description": "Le pagine Web non contengono nulla che lampeggi per più di tre volte in un secondo.",
+            "index": "2.3.2"
+          },
+          {
+            "title": "Animazione da interazioni",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#animation-from-interactions",
+            "wcagLevel": "AAA",
+            "description": "Un movimento animato innescato dall'interazione può essere disabilitato, a meno che l'animazione non sia essenziale per la funzionalità o le informazioni trasmesse.",
+            "index": "2.3.3"
+          }
+        ]
+      },
+      {
+        "title": "Navigabile",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/navigable.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#navigable",
+        "description": "Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.",
+        "index": "2.4",
+        "criteria": [
+          {
+            "title": "Salto di blocchi",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#bypass-blocks",
+            "wcagLevel": "A",
+            "description": "È disponibile un meccanismo per saltare i blocchi di contenuto che si ripetono su più pagine Web.",
+            "index": "2.4.1"
+          },
+          {
+            "title": "Titolazione della pagina",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#page-titled",
+            "wcagLevel": "A",
+            "description": "Le pagine Web hanno titoli che ne descrivono l'argomento o la finalità.",
+            "index": "2.4.2"
+          },
+          {
+            "title": "Ordine del focus",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#focus-order",
+            "wcagLevel": "A",
+            "description": "Se una pagina Web può essere navigata in modo sequenziale e le sequenze di navigazione influiscono sul suo significato e sul suo funzionamento, gli oggetti che possono ricevere il focus lo ricevono in un ordine che ne conserva il senso e l'operatività.",
+            "index": "2.4.3"
+          },
+          {
+            "title": "Scopo del collegamento (nel contesto)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#link-purpose-in-context",
+            "wcagLevel": "A",
+            "description": "Lo scopo di ogni collegamento può essere determinato dal solo testo del collegamento oppure dal testo del collegamento insieme a dei contenuti contestuali che possono essere determinati programmaticamente , salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per gli utenti in generale.",
+            "index": "2.4.4"
+          },
+          {
+            "title": "Differenti modalità",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#multiple-ways",
+            "wcagLevel": "AA",
+            "description": "Rendere disponibili più modalità per identificare una pagina Web all'interno di un insieme di pagine Web , salvo il caso in cui una pagina Web sia il risultato – o una fase – di un' azione.",
+            "index": "2.4.5"
+          },
+          {
+            "title": "Intestazioni ed etichette",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#headings-and-labels",
+            "wcagLevel": "AA",
+            "description": "Utilizzare intestazioni ed etichette per descrivere argomenti o finalità.",
+            "index": "2.4.6"
+          },
+          {
+            "title": "Focus visibile",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#focus-visible",
+            "wcagLevel": "AA",
+            "description": "Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una modalità operativa in cui è visibile l'indicatore del focus.",
+            "index": "2.4.7"
+          },
+          {
+            "title": "Posizione",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/location.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#location",
+            "wcagLevel": "AAA",
+            "description": "Rendere disponibili informazioni sulla posizione dell'utente all'interno di un insieme di pagine Web.",
+            "index": "2.4.8"
+          },
+          {
+            "title": "Scopo del collegamento (solo collegamento)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#link-purpose-link-only",
+            "wcagLevel": "AAA",
+            "description": "Rendere disponibile un meccanismo per comprendere lo scopo di ciascun collegamento basandosi sul solo testo del collegamento, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per gli utenti in generale.",
+            "index": "2.4.9"
+          },
+          {
+            "title": "Intestazioni di sezione",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#section-headings",
+            "wcagLevel": "AAA",
+            "description": "\"Intestazione\" è usato nel suo senso generale ed include titoli ed altri modi per aggiungere un'intestazione a differenti tipi di contenuto.",
+            "index": "2.4.10"
+          },
+          {
+            "title": "Focus non nascosto (minimo)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-minimum",
+            "wcagLevel": "AA",
+            "description": "Quando un componente dell'interfaccia utente viene attivato tramite tastiera, il componente non viene completamente nascosto da un contenuto generato dall'autore.",
+            "index": "2.4.11"
+          },
+          {
+            "title": "Focus non nascosto (avanzato)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-enhanced",
+            "wcagLevel": "AAA",
+            "description": "Quando un componente dell'interfaccia utente riceve il focus della tastiera, nessuna parte del componente viene nascosta da un contenuto creato dall'autore.",
+            "index": "2.4.12"
+          },
+          {
+            "title": "Aspetto del focus",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#focus-appearance",
+            "wcagLevel": "AAA",
+            "description": "Eccezioni:",
+            "index": "2.4.13"
+          }
+        ]
+      },
+      {
+        "title": "Modalità di input",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/input-modalities.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#input-modalities",
+        "description": "Rendere più facile agli utenti l'utilizzo di funzionalità attraverso input diversi dalla tastiera.",
+        "index": "2.5",
+        "criteria": [
+          {
+            "title": "Movimenti del puntatore",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#pointer-gestures",
+            "wcagLevel": "A",
+            "description": "Questo requisito si applica al contenuto Web che interpreta le azioni del puntatore (ovvero non si applica alle azioni necessarie per il funzionamento del programma utente o della tecnologia assistiva).",
+            "index": "2.5.1"
+          },
+          {
+            "title": "Cancellazione delle azioni del puntatore",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#pointer-cancellation",
+            "wcagLevel": "A",
+            "description": "Le funzioni che emulano una tastiera o una tastiera numerica sono considerate essenziali.",
+            "index": "2.5.2"
+          },
+          {
+            "title": "Etichetta nel nome",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#label-in-name",
+            "wcagLevel": "A",
+            "description": "Una buona pratica è quella di avere il testo dell'etichetta all'inizio del nome.",
+            "index": "2.5.3"
+          },
+          {
+            "title": "Azionamento da movimento",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#motion-actuation",
+            "wcagLevel": "A",
+            "description": "Le funzionalità che possono essere azionate dal movimento del dispositivo o dell'utente possono anche essere attivate dai componenti dell'interfaccia utente e la risposta al movimento può essere disabilitata per impedire l'attivazione accidentale, tranne quando: Interfaccia supportata Il movimento viene utilizzato per attivare la funzionalità attraverso un'interfaccia compatibile con l'accessibilità ; Essenziale Il movimento è essenziale per la funzione e non farlo invaliderebbe l'attività.",
+            "index": "2.5.4"
+          },
+          {
+            "title": "Dimensione dell'obiettivo (avanzato)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#target-size-enhanced",
+            "wcagLevel": "AAA",
+            "description": "La dimensione dell' obiettivo per gli input tramite puntatore è di almeno 44 per 44 CSS pixel , tranne quando: Equivalente L'obiettivo è disponibile attraverso un link o un controllo equivalenti sulla stessa pagina, di almeno 44 per 44 CSS pixel; In linea L'obiettivo è in una frase o in un blocco di testo; Sotto controllo del programma utente La dimensione dell'obiettivo è determinata dal programma utente e non viene modificata dall'autore; Essenziale Una specifica presentazione dell'obiettivo è essenziale perché l'informazione venga trasmessa.",
+            "index": "2.5.5"
+          },
+          {
+            "title": "Meccanismi di input simultanei",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#concurrent-input-mechanisms",
+            "wcagLevel": "AAA",
+            "description": "Il contenuto Web non limita l'uso delle modalità di input disponibili su una piattaforma, tranne nei casi in cui la limitazione è essenziale , necessaria per garantire la sicurezza del contenuto o per rispettare le impostazioni dell'utente.",
+            "index": "2.5.6"
+          },
+          {
+            "title": "Movimenti di trascinamento",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#dragging-movements",
+            "wcagLevel": "AA",
+            "description": "Tutte le funzionalità che per il loro utilizzo richiedono il movimento di trascinamento possono essere gestite con un puntatore singolo senza trascinamento, a meno che il trascinamento non sia essenziale o la funzionalità sia controllata dal programma utente e non venga modificata dall'autore.",
+            "index": "2.5.7"
+          },
+          {
+            "title": "Dimensione dell'obiettivo (minimo)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#target-size-minimum",
+            "wcagLevel": "AA",
+            "description": "La dimensione dell' obiettivo per gli input tramite puntatore è di almeno 24 per 24 CSS pixel , tranne quando:",
+            "index": "2.5.8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "3",
+    "title": "Comprensibile",
+    "description": "Le informazioni e il funzionamento dell'interfaccia utente devono essere comprensibili.",
+    "guidelines": [
+      {
+        "title": "Leggibile",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/readable.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#readable",
+        "description": "Rendere il testo leggibile e comprensibile.",
+        "index": "3.1",
+        "criteria": [
+          {
+            "title": "Lingua della pagina",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#language-of-page",
+            "wcagLevel": "A",
+            "description": "L'impostazione della lingua predefinita di ogni pagina Web può essere determinata programmaticamente.",
+            "index": "3.1.1"
+          },
+          {
+            "title": "Parti in lingua",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#language-of-parts",
+            "wcagLevel": "AA",
+            "description": "La lingua di ogni passaggio o frase nel contenuto può essere determinata programmaticamente ad eccezione di nomi propri, termini tecnici, parole in lingue indeterminate e parole o frasi che sono diventate parte integrante del gergo del testo immediatamente circostante.",
+            "index": "3.1.2"
+          },
+          {
+            "title": "Parole inusuali",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#unusual-words",
+            "wcagLevel": "AAA",
+            "description": "È reso disponibile un meccanismo per identificare specifiche definizioni di parole o frasi usate in modo insolito o ristretto , compresi espressioni idiomatiche e gergali.",
+            "index": "3.1.3"
+          },
+          {
+            "title": "Abbreviazioni",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/abbreviations.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#abbreviations",
+            "wcagLevel": "AAA",
+            "description": "È reso disponibile un meccanismo per identificare la forma espansa o il significato delle abbreviazioni.",
+            "index": "3.1.4"
+          },
+          {
+            "title": "Livello di lettura",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#reading-level",
+            "wcagLevel": "AAA",
+            "description": "Quando il testo richiede capacità di lettura più avanzata rispetto al livello di istruzione secondaria inferiore dopo aver rimosso i nomi propri e i titoli, sono resi disponibili contenuti supplementari oppure una versione che non richieda la capacità di lettura più avanzata rispetto al livello di istruzione secondaria inferiore.",
+            "index": "3.1.5"
+          },
+          {
+            "title": "Pronuncia",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#pronunciation",
+            "wcagLevel": "AAA",
+            "description": "È reso disponibile un meccanismo per identificare specifiche pronunce per le parole il cui significato, nel contesto, è ambiguo se non se ne conosce la pronuncia.",
+            "index": "3.1.6"
+          }
+        ]
+      },
+      {
+        "title": "Prevedibile",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/predictable.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#predictable",
+        "description": "Creare pagine Web che abbiano aspetto e funzionamento prevedibili.",
+        "index": "3.2",
+        "criteria": [
+          {
+            "title": "Al focus",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#on-focus",
+            "wcagLevel": "A",
+            "description": "Quando qualsiasi componente dell'interfaccia utente riceve il focus, non avvia un cambiamento del contesto.",
+            "index": "3.2.1"
+          },
+          {
+            "title": "All'input",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/on-input.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#on-input",
+            "wcagLevel": "A",
+            "description": "Cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto , a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente.",
+            "index": "3.2.2"
+          },
+          {
+            "title": "Navigazione coerente",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#consistent-navigation",
+            "wcagLevel": "AA",
+            "description": "I meccanismi di navigazione che sono ripetuti su più pagine Web all'interno di un insieme di pagine Web , appaiono nello stesso ordine relativo ogni volta che si ripetono, a meno che un cambiamento sia stato avviato da un utente.",
+            "index": "3.2.3"
+          },
+          {
+            "title": "Identificazione coerente",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#consistent-identification",
+            "wcagLevel": "AA",
+            "description": "I componenti che hanno la stessa funzionalità all'interno di un insieme di pagine Web sono identificati in modo coerente.",
+            "index": "3.2.4"
+          },
+          {
+            "title": "Cambiamenti su richiesta",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#change-on-request",
+            "wcagLevel": "AAA",
+            "description": "I cambiamenti di contesto sono avviati solo su richiesta dell'utente, oppure è disponibile un meccanismo per disattivarli.",
+            "index": "3.2.5"
+          },
+          {
+            "title": "Aiuto coerente",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#consistent-help",
+            "wcagLevel": "A",
+            "description": "Se una pagina Web contiene uno dei seguenti meccanismi di aiuto e tali meccanismi si ripetono su più pagine Web all'interno di un insieme di pagine Web , si trovano nello stesso ordine rispetto ad altri contenuti della pagina, a meno che non sia stata avviata una modifica dall’utente:",
+            "index": "3.2.6"
+          }
+        ]
+      },
+      {
+        "title": "Assistenza nell'inserimento",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/input-assistance.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#input-assistance",
+        "description": "Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.",
+        "index": "3.3",
+        "criteria": [
+          {
+            "title": "Identificazione di errori",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#error-identification",
+            "wcagLevel": "A",
+            "description": "Se viene rilevato automaticamente un errore di inserimento , l'elemento in errore viene identificato e l'errore descritto tramite testo.",
+            "index": "3.3.1"
+          },
+          {
+            "title": "Etichette o istruzioni",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#labels-or-instructions",
+            "wcagLevel": "A",
+            "description": "Sono fornite etichette o istruzioni quando il contenuto richiede azioni di input da parte dell'utente.",
+            "index": "3.3.2"
+          },
+          {
+            "title": "Suggerimenti per gli errori",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#error-suggestion",
+            "wcagLevel": "AA",
+            "description": "Se viene identificato un errore di inserimento e sono noti dei suggerimenti per correggerlo, tali suggerimenti vengono forniti all'utente, a meno che ciò non pregiudichi la sicurezza o la finalità del contenuto.",
+            "index": "3.3.3"
+          },
+          {
+            "title": "Prevenzione degli errori (legali, finanziari, dati)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#error-prevention-legal-financial-data",
+            "wcagLevel": "AA",
+            "description": "Per le pagine Web che contengono vincoli di tipo giuridico o transazioni finanziarie per l'utente che gestiscono la modifica o la cancellazione e gestione di dati controllabili dall'utente in un sistema di archiviazione oppure che inoltrano le risposte degli utenti a test, è soddisfatta almeno una delle seguenti condizioni: Reversibilità Le azioni sono reversibili. Controllo I dati inseriti dall’utente vengono verificati e all’utente viene data l’opportunità di correggere gli errori. Conferma È disponibile un meccanismo per la revisione, conferma e correzione delle informazioni prima del loro invio definitivo.",
+            "index": "3.3.4"
+          },
+          {
+            "title": "Aiuto",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/help.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#help",
+            "wcagLevel": "AAA",
+            "description": "Fornire degli aiuti contestuali.",
+            "index": "3.3.5"
+          },
+          {
+            "title": "Prevenzione degli errori (tutti)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#error-prevention-all",
+            "wcagLevel": "AAA",
+            "description": "Per le pagine Web che richiedano l'invio di informazioni da parte dell'utente, è soddisfatta almeno una delle seguenti condizioni: Reversibilità Le azioni sono reversibili. Controllo I dati inseriti dall’utente vengono verificati e all’utente viene data l’opportunità di correggere gli errori. Conferma È disponibile un meccanismo per la revisione, conferma e correzione delle informazioni prima del loro invio definitivo.",
+            "index": "3.3.6"
+          },
+          {
+            "title": "Inserimento ridondante",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#redundant-entry",
+            "wcagLevel": "A",
+            "description": "Tranne quando:",
+            "index": "3.3.7"
+          },
+          {
+            "title": "Autenticazione accessibile (minimo)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#accessible-authentication-minimum",
+            "wcagLevel": "AA",
+            "description": "Un test basato su abilità cognitive (come ricordare una password o risolvere un rompicapo) non deve essere utilizzato per nessuna fase di un processo di autenticazione, a meno che tale fase non preveda almeno una delle seguenti opzioni: Alternativa Un altro metodo di autenticazione che non si basi su un test che necessiti di abilità cognitive. Meccanismo È disponibile un meccanismo che assiste l'utente nell'eseguire il test basato su abilità cognitive. Riconoscimento oggetti Il test di funzione cognitiva consiste nel riconoscere oggetti. Contenuto personale Il test di funzione cognitiva consiste nell'identificare contenuti non testuali forniti dall'utente al sito Web.",
+            "index": "3.3.8"
+          },
+          {
+            "title": "Autenticazione accessibile (avanzato)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#accessible-authentication-enhanced",
+            "wcagLevel": "AAA",
+            "description": "Un test basato su abilità cognitive (come ricordare una password o risolvere un rompicapo) non deve essere utilizzato per nessuna fase di un processo di autenticazione, a meno che tale fase non preveda almeno una delle seguenti opzioni: Alternativa Un altro metodo di autenticazione che non si basi su un test che necessiti di abilità cognitive. Meccanismo È disponibile un meccanismo che assiste l'utente nell'eseguire il test basato su abilità cognitive.",
+            "index": "3.3.9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "4",
+    "title": "Robusto",
+    "description": "Il contenuto deve essere abbastanza robusto da poter essere interpretato in modo affidabile da una vasta gamma di agenti utente, inclusi le tecnologie assistive.",
+    "guidelines": [
+      {
+        "title": "Compatibile",
+        "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/compatible.html",
+        "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#compatible",
+        "description": "Garantire la massima compatibilità con i programmi utente attuali e futuri, comprese le tecnologie assistive",
+        "index": "4.1",
+        "criteria": [
+          {
+            "title": "Criterio di successo 4.1.1 Analisi sintattica (parsing) (obsoleto e rimosso)",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/parsing.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#parsing",
+            "wcagLevel": "A",
+            "description": "Questo criterio è stato originariamente adottato per risolvere i problemi che la tecnologia assistiva presentava durante l'analisi diretta dell'HTML. La tecnologia assistiva non ha più bisogno di analizzare direttamente l'HTML. Di conseguenza, questi problemi non esistono più o vengono affrontati con altri criteri. Questo criterio non ha più utilità e viene rimosso.",
+            "index": "4.1.1"
+          },
+          {
+            "title": "Nome, ruolo, valore",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#name-role-value",
+            "wcagLevel": "A",
+            "description": "Questo criterio di successo ha valenza soprattutto per gli autori Web che sviluppano o programmano con linguaggi di scripting i componenti delle proprie interfacce utente. Per esempio, se utilizzati in accordo alle specifiche i controlli HTML standard rispondono a questo criterio.",
+            "index": "4.1.2"
+          },
+          {
+            "title": "Messaggi di stato",
+            "linkUnderstanding": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+            "linkApply": "https://www.w3.org/WAI/WCAG22/quickref/#status-messages",
+            "wcagLevel": "AA",
+            "description": "Nei contenuti implementati utilizzando i linguaggi di marcatura, i messaggi di stato possono essere determinati programmaticamente tramite ruolo o proprietà in modo tale che possano essere presentati all'utente mediante tecnologie assistive senza ricevere il focus.",
+            "index": "4.1.3"
+          }
+        ]
+      }
+    ]
+  }
+]

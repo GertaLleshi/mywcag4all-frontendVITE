@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "6522ca69b0c8e50007cdc561",
+    "name": "Massachusetts Institute of Technology License",
+    "abbr": "MIT License",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc562",
+    "name": "GNU General Public License version 3",
+    "abbr": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc563",
+    "name": "GNU Affero General Public License version 3",
+    "abbr": "AGPLv3",
+    "url": "https://www.gnu.org/licenses/agpl-3.0.html"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc564",
+    "name": "GNU Lesser General Public License version 3",
+    "abbr": "LGPLv3",
+    "url": "https://www.gnu.org/licenses/lgpl-3.0.html"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc565",
+    "name": "W3C Software License (2023 version)",
+    "abbr": "W3C Software License",
+    "url": "https://www.w3.org/copyright/software-license-2023/"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc566",
+    "name": "Creative Commons Attribution 4.0 International License",
+    "abbr": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc567",
+    "name": "Mozilla Public License version 2.0",
+    "abbr": "MPL v2.0",
+    "url": "https://www.mozilla.org/en-US/MPL/2.0/"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc568",
+    "name": "Apache License version 2.0",
+    "abbr": "Apache License v2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc569",
+    "name": "Internet Systems Consortium License",
+    "abbr": "ISC License",
+    "url": "https://opensource.org/licenses/ISC"
+  },
+  {
+    "_id": "6522ca69b0c8e50007cdc56a",
+    "name": "Copyright - All Rights Reserved",
+    "abbr": "Copyright ©",
+    "url": "https://en.wikipedia.org/wiki/Copyright"
+  }
+]

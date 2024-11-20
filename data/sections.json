@@ -1,0 +1,26 @@
+[
+  {
+    "index": "1",
+    "lang": "it",
+    "title": "Percepibile",
+    "description": "Le informazioni e i componenti dell'interfaccia utente devono essere presentabili agli utenti in modi che possano percepire."
+  },
+  {
+    "index": "2",
+    "lang": "it",
+    "title": "Operabile",
+    "description": "I componenti dell'interfaccia utente e la navigazione devono essere operabili."
+  },
+  {
+    "index": "3",
+    "lang": "it",
+    "title": "Comprensibile",
+    "description": "Le informazioni e il funzionamento dell'interfaccia utente devono essere comprensibili."
+  },
+  {
+    "index": "4",
+    "lang": "it",
+    "title": "Robusto",
+    "description": "Il contenuto deve essere abbastanza robusto da poter essere interpretato in modo affidabile da una vasta gamma di agenti utente, inclusi le tecnologie assistive."
+  }
+]

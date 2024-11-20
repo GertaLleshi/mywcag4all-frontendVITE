@@ -1,0 +1,2633 @@
+[
+    {
+        "index": "1",
+        "wcagLevel": "A",
+        "title": "Semantica per la definizione di struttura e significato",
+        "purpose": "Verificare l’uso corretto degli elementi semantici per la definizione della struttura e del significato della pagina, in particolare per intestazioni, tabelle, elenchi, form, ecc.",
+        "procedure": "Analizzare il sorgente della pagina e controllare l'uso corretto e adeguato degli elementi di markup per la definizione del contenuto. In particolare, fare attenzione all'annidamento dei tag e alla corretta strutturazione di liste (ul, ol, dl), form, tabelle, link, intestazioni. Controllare che sia presente in ogni pagina un titolo marcato come h1 e che le altre intestazioni siano correttamente strutturate; non devono essere presenti salti di intestazioni, ad esempio da h1 a h3. Controllare l'uso corretto dei landmark e region aria per le diverse parti della pagina. I tool consigliati evidenziano, sia sul codice che visivamente, i punti in cui è stato usato in modo non corretto il markup per la definizione della pagina. Il verificatore deve controllare gli errori rilevati e individuare la soluzione più corretta, consultando sempre le specifiche dello standard. Se gli errori sono dovuti a motivi di presentazione, questa va sempre gestita adattando la visualizzazione degli elementi tramite CSS.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "contents",
+            "semantica",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "2",
+        "wcagLevel": "A",
+        "title": "Semantica per l'enfasi del contenuto",
+        "purpose": "Verificare l’uso corretto degli elementi semantici per dare enfasi al contenuto (es. strong)",
+        "procedure": "Analizzare il sorgente della pagina e controllare l'uso corretto di elementi di markup come strong, em, blockquote, ecc. secondo la propria specifica. Gli elementi che danno enfasi al contenuto devono essere usati per evidenziare contenuti importanti o particolari, ma non devono essere usati con solo scopo di enfasi visiva. Ad esempio se si vuole che un certo elemento sia in grassetto perché risalti per scopi di presentazione visiva, ma non rappresenta effettivamente un contenuto importante, la sua presentazione deve essere gestita tramite CSS. I tool consigliati evidenziano, sia sul codice che visivamente, i punti in cui è stato usato markup per dare enfasi al contenuto, il verificatore può quindi controllare velocemente che il suo uso sia corretto.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "contents",
+            "html",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "3",
+        "wcagLevel": "A",
+        "title": "Intestazione della pagina",
+        "purpose": "Verificare la titolazione corretta della pagina (tag title) per descriverne il significato e distinguerla all’interno del sito",
+        "procedure": "Analizzare il sorgente della pagina e verificare che il tag head abbia tra i suoi figli il tag title e che questo sia significativo e descriva in modo coinciso il contenuto della pagina. I tool consigliati verificano la presenza del tag title nella pagina, il verificatore deve poi controllarne l'efficacia e assicurarsi che il titolo vada dal particolare (scopo della pagina) al generale (nome del sito).",
+        "category": "S",
+        "tags": [
+            "structure",
+            "contents"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "4",
+        "wcagLevel": "A",
+        "title": "Lingua principale della pagina",
+        "purpose": "Verificare che sia correttamente specificata la lingua principale della pagina (html lang)",
+        "procedure": "Analizzare il sorgente della pagina e verificare che il tag html abbia l'attributo lang e che il suo valore sia coerente con la lingua principale usata per i contenuti della pagina. I tool consigliati sono in grado di rilevare l'assenza dell'attributo lang e in alcuni casi di rilevare discrepanze rispetto alla lingua principale usata nei contenuti.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "html",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "5",
+        "wcagLevel": "A",
+        "title": "Validazione della pagina (HTML)",
+        "purpose": "Validare la pagina rispetto allo standard",
+        "procedure": "Utilizzare un validatore online o gli strumenti consigliati per validare la pagina rispetto alle specifiche dello standard HTML/XHTML utilizzato. Il verificatore deve poi intervenire per correggere i problemi rilevati.",
+        "category": "A",
+        "tags": [
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "6",
+        "wcagLevel": "A",
+        "title": "Identificatori duplicati",
+        "purpose": "Verificare la presenza di ID duplicati sulla stessa pagina",
+        "procedure": "Utilizzare gli strumenti consigliati per verificare la presenza di occorrenze multiple di uno stesso valore per l'attributo id. L'attributo id di un elemento deve sempre essere univoco e si deve quindi eliminare o modificare la ripetizione.",
+        "category": "A",
+        "tags": [
+            "structure",
+            "html",
+            "contents",
+            "attributi-html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "7",
+        "wcagLevel": "AA",
+        "title": "Elementi con lingua diversa da lingua principale",
+        "purpose": "Verificare che sia correttamente specificata la lingua di un elemento quando è diversa dalla lingua principale della pagina (attributo lang)",
+        "procedure": "Analizzare il sorgente della pagina e verificare che tutte le parole la cui lingua differisce dalla lingua principale della pagina siano contenuti in elementi semantici a cui viene assegnato correttamente l'attributo lang. I tool consigliati permettono di rilevare solo la presenza dell'attributo lang ed eventualmente l'assegnazione di valori inesistenti, mentre al verificatore sta verificare che sia correttamente indicato il valore corrispondente alla lingua utilizzata.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "contents",
+            "html",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "8",
+        "wcagLevel": "AAA",
+        "title": "Intestazioni di sezione",
+        "purpose": "Verificare l’utilizzo di intestazioni di sezione per organizzare il contenuto",
+        "procedure": "Analizzare il sorgente della pagina e verificare che il contenuto della pagina sia organizzato in sezioni ad ognuna delle quali viene correttamente assegnata un'intestazione (h1-h6). Verificare anche che nel caso in cui i contenuti abbiano una logica gerarchica questa sia evidenziata anche nella strutturazione delle intestazioni. I tool consigliati permettono di evidenziare, nel codice e visivamente, parti del contenuto che possono essere intestazioni o l'uso delle intestazioni e il loro rapporto gerarchico. Al verificatore spetta il compito di verificare che quanto indicato sia corretto rispetto al messaggio che si vuole trasmettere.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "9",
+        "wcagLevel": "A",
+        "title": "Immagini di pura presentazione",
+        "purpose": "Verificare la possibilità di inserire le immagini di pura presentazione, come le icone, tramite CSS",
+        "procedure": "Analizzare visivamente la pagina e individuare tutte le immagini o icone che non portano informazione, ma sono inserite a scopo di presentazione per riempire la pagina. Verificare quindi tramite il sorgente della pagina e il CSS se è possibile inserire queste immagini tramite CSS e non usando il tag img nel codice della pagina.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "contents",
+            "images"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "10",
+        "wcagLevel": "AAA",
+        "title": "Aiuti contestuali per le tecnologie assistive",
+        "purpose": "Verificare l’uso corretto di regole CSS per nascondere alcuni elementi dalla presentazione, ma lasciandoli visibili alle tecnologie assistive (es. link salta al contenuto principale)",
+        "procedure": "Verificare che gli aiuti contestuali inseriti per le tecnologie assistive siano effettivamente raggiungibili dalle stesse. Verificare poi che gli aiuti inseriti non interferiscano con la presentazione visuale della pagina per non creare disorientamento. I tool consigliati rilevano la presenza di aiuti contestuali visibili solo alle tecnologie assistive.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "contents",
+            "html",
+            "navigation",
+            "disorientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "11",
+        "wcagLevel": "AA",
+        "title": "Dimensioni relative dei contenuti",
+        "purpose": "Verificare che le dimensioni di contenuti e testo siano specificate con unità di misura relative (em, percentuale) oppure utilizzando i nomi standard (small, medium, large)",
+        "procedure": "Analizzare il codice dei fogli di stile associati alla pagina e verificare che siano sempre usate unità di misura relative e non assolute per la definizione di dimensioni di aree di contenuto e testo. Fa eccezione la definizione dei bordi che possono essere definiti in px senza alterare la trasformazione su dispositivi diversi. Il tool consigliato è in grado di rilevare il mancato uso di unità di misura relative.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "text",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "12",
+        "wcagLevel": "AA",
+        "title": "Layout scalabile e responsive",
+        "purpose": "Verificare che il layout sia scalabile e responsive (es. media query) e che il contenuto possa essere ripresentato senza perdita di informazioni e senza scroll nelle due dimensioni",
+        "procedure": "Analizzare il codice dei fogli di stile associati alla pagina e verificare la presenza di media query o del meta tag viewport nel sorgente html della pagina. Utilizzare poi gli strumenti consigliati per verificare la trasformazione della pagina su dispositivi con dimensioni e risoluzioni diverse, sia desktop che mobile. Si consiglia sempre di effettuare test anche su diversi dispositivi fisici.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "layout",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "13",
+        "wcagLevel": "N.A.",
+        "title": "Validazione della pagina (CSS)",
+        "purpose": "Validare il foglio di stile rispetto allo standard",
+        "procedure": "Utilizzare un validatore online o gli strumenti consigliati per validare i fogli di stile CSS utilizzati. Il verificatore deve poi intervenire per correggere i problemi rilevati.",
+        "category": "A",
+        "tags": [
+            "presentation",
+            "layout",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "14",
+        "wcagLevel": "A",
+        "title": "Azioni inattese o cambi di contesto al focus di un componente",
+        "purpose": "Verificare che non si verifichino azioni inattese o cambiamenti di contesto quando un componente riceve il focus (es. la form non deve essere inviata automaticamente)",
+        "procedure": "Effettuare una prova di utilizzo della pagina utilizzando almeno sia mouse che tastiera per dare il focus agli elementi interattivi presenti. Verificare quindi che quando il componente riceve il focus non si avviino cambi di contesto o azioni improvvise.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "15",
+        "wcagLevel": "A",
+        "title": "Tempo di lampeggio",
+        "purpose": "Verificare che non si verifichino azioni inattese o cambiamenti di contesto quando l’utente compila un particolare campo della form (seleziona un elemento in un radio button, checkbox, select, compila un campo di testo)",
+        "procedure": "Effettuare una prova di compilazione di una form e verificare che quando si compila un campo non si avviino cambi di contesto o azioni inattese. Verificare che sia presente un pulsante di submit per avviare qualsiasi cambio di contesto. Nel caso di campi select verificare che l'eventuale cambio di contesto avvenga dopo la selezione del valore e non solo con il focus su un elemento. Nel caso un'azione venga scatenata da un input utente verificare che sia esplicitamente chiaro tramite testo introduttivo ciò che accade e ciò che deve essere fatto perché il cambio di contesto avvenga.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "animations",
+            "usage-time"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "16",
+        "wcagLevel": "A",
+        "title": "Controllo dei dati inseriti",
+        "purpose": "Verificare che sia disponibile un controllo client-side dei dati inseriti in input dall’utente in una form",
+        "procedure": "Effettuare una prova di compilazione di una form con dati non validi e verificare che sia reso disponibile un messaggio di errore all'utente. Analizzare il sorgente della pagina per controllare che questo controllo sia fatto client side e non server side, per velocizzare la risposta all'utente. Per motivi di sicurezza invece, si consiglia sempre di ripetere il controllo anche server-side.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "input",
+            "data"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "17",
+        "wcagLevel": "AA",
+        "title": "Chiusura dei contenuti resi visibili dall'hover",
+        "purpose": "Verificare che il contenuto reso visibile dall’hover del mouse o dal focus della tastiera (es. pop-up, sottomenu) possa essere chiuso senza spostare il puntatore o il focus (es. tasto esc)",
+        "procedure": "Effettuare una prova di navigazione della pagina in particolare su elementi che possono ricevere hover del mouse o focus della tastiera. Verificare quindi che se questi stati rendono visibile del contenuto aggiuntivo, questo possa anche essere chiuso o nascosto senza privare l'elemento dell'hover o del focus. Generalmente la chiusura è disponibile tramite il tasto esc, nel caso sia prevista una particolare combinazione di tasti per nascondere il contenuto aggiuntivo, l'utente deve essere messo a conoscenza di tale opzione.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "presentation",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "18",
+        "wcagLevel": "AA",
+        "title": "Permanenza dei contenuti resi visibili dall'hover",
+        "purpose": "Verificare che il contenuto reso visibile dall’hover del mouse o dal focus della tastiera resti visibile finché l’utente non rimuove il focus o l’hover",
+        "procedure": "Effettuare una prova di navigazione della pagina in particolare su elementi che possono ricevere hover del mouse o focus della tastiera. Verificare quindi che se questi stati rendono visibile del contenuto aggiuntivo, questo non ha un limite di tempo ma resta visibile fintanto che l'utente ha il focus o l'hover attivo sull'elemento o utilizza il metodo per nascondere il contenuto aggiuntivo.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "presentation",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "19",
+        "wcagLevel": "AA",
+        "title": "Raggiungibilità dei contenuti resi visibili dall'hover",
+        "purpose": "Verificare che il puntatore possa essere spostato sul contenuto aggiuntivo reso visibile dall'hover del mouse senza che questo scompaia",
+        "procedure": "Effettuare una prova di navigazione della pagina in particolare su elementi che possono ricevere l'hover del mouse. Verificare che se questo stato rende visibile contenuto aggiuntivo, l'utente può spostare il puntatore sul contenuto aggiuntivo senza che l'elemento principale perda lo stato di hover.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "presentation",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "20",
+        "wcagLevel": "AAA",
+        "title": "Attivazione e disattivazione dei cambi di contesto",
+        "purpose": "Verificare che tutti i cambiamenti di contesto siano attivati dall’utente o che sia possibile disattivarli",
+        "procedure": "Effettuare una prova di navigazione della pagina e verificare che sia presente un modo chiaro per abilitare cambi di contesto, visualizzare contenuti pop-up o aggiornare la pagina. In alternativa verificare che sia presente un meccanismo che permette all'utente di disabilitare qualunque cambio di contesto.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "waria",
+            "waria-states",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "21",
+        "wcagLevel": "A",
+        "title": "Elementi di presentazione nella struttura",
+        "purpose": "Verificare che non siano presenti elementi di presentazione nella struttura della pagina per permettere diverse presentazioni",
+        "procedure": "Analizzare il codice sorgente della pagina e verificare che non sia usato l'attributo style su alcun elemento. Tutte le impostazioni di stile e presentazione del contenuto devono essere inserite tramite foglio di stile associato. Il tool consigliato permette di rilevare la presenza dell'attributo style su elementi html.",
+        "category": "A",
+        "tags": [
+            "presentation",
+            "structure",
+            "html",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "22",
+        "wcagLevel": "AA",
+        "title": "Dipendenza dall'orientamento dello schermo",
+        "purpose": "Verificare che la visualizzazione e il funzionamento del contenuto non dipendano dall’orientamento dello schermo",
+        "procedure": "Utilizzare gli strumenti consigliati ed effettuare anche prove con dispositivi reali, per verificare che il contenuto sia visibile e navigabile indipendentemente dall'orientamento dello schermo.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "layout",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "23",
+        "wcagLevel": "N.A.",
+        "title": "Integrazione e compatibilità tra struttura, presentazione e comportamento",
+        "purpose": "Verificare che gli elementi che definiscono struttura, presentazione e comportamento siano chiaramente separati e correttamente collegati (file HTML, CSS, JavaScript) in modo da garantire la compatibilità in ambienti e con tecnologie diverse",
+        "procedure": "Analizzare il codice sorgente della pagina e verificare che gli elementi di presentazione siano tutti inseriti tramite foglio di stile esterno e che tutti gli script siano inseriti tramite fogli di scripting opportunamente linkati. Verificare quindi che il codice html contenga solo elementi di strutturazione semantica, che i fogli di stile CSS contengano tutte le istruzioni di visualizzazione e che tutti gli elementi di comportamento e risposta ad eventi siano opportunamente inseriti in risorse js.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "structure",
+            "behavior",
+            "separation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "24",
+        "wcagLevel": "A",
+        "title": "Contenuto testuale comprensibile senza foglio di stile",
+        "purpose": "Verificare che la struttura e il significato della pagina solo testuale siano comprensibili",
+        "procedure": "Utilizzare i tool consigliati per disabilitare i fogli di stile e verificare che la struttura, le relazioni e le informazioni presenti nel contenuto siano comunque comprensibili.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "text",
+            "contents",
+            "no-css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "25",
+        "wcagLevel": "A",
+        "title": "Ordine logico delle informazioni",
+        "purpose": "Verificare che gli elementi della pagina siano in un ordine logico e che le informazioni più importanti siano inserite per prime",
+        "procedure": "Utilizzare i tool consigliati per disabilitare i fogli di stile e verificare che l'ordine delle informazioni rispetti la logica della pagina e che i contenuti più importanti siano presentati per primi in modo che vengano trasmessi per primi ai motori di ricerca e letti per primi dagli screen reader.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "text",
+            "contents",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "26",
+        "wcagLevel": "A",
+        "title": "Informazioni veicolate tramite caratteristiche sensoriali",
+        "purpose": "Verificare che informazioni veicolate tramite caratteristiche sensoriali siano ancora comprensibili",
+        "procedure": "Utilizzare i tool consigliati per disabilitare i fogli di stile e verificare che informazioni basate su colori o posizioni siano comunque comprensibili perché veicolate anche tramite una differente descrizione testuale.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "css",
+            "presentation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "27",
+        "wcagLevel": "A",
+        "title": "Alternative testuali per le immagini",
+        "purpose": "Verificare la presenza di alternative o descrizioni testuali per immagini che portano valore al contenuto, in modo che le informazioni siano comunque comprensibili e reperibili anche se non vengono visualizzate",
+        "procedure": "Individuare tutte le immagini informative presenti nella pagina e verificare che sia presente per ognuna l'attributo alt e che il suo valore descriva il significato dell'immagine per trasmettere lo stesso messaggio visuale. I tool consigliati permettono di rilevare la presenza o l'assenza dell'attributo alt o la presenza dell'attributo alt con valore vuoto. Al verificatore spetta il compito di verificare che, nel caso di immagini informative, l'attributo alt sia equivalente al significato dell'immagine.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "images",
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "28",
+        "wcagLevel": "A",
+        "title": "Immagini decorative",
+        "purpose": "Verificare che le immagini decorative non abbiano alternative testuali (alt vuoto, alt=””), in modo che le tecnologie assistive le ignorino, se la comprensione del contenuto e la navigabilità del sito non vengono compromesse. Ogni volta che è possibile dovrebbero essere inserite tramite CSS",
+        "procedure": "Individuare tutte le immagini decorative presenti nella pagina e verificare tramite il codice della pagina se sia possibile inserirle tramite CSS. Se l'opzione non è applicabile verificare che le immagini decorative inserite tramite il tag img abbiano l'attributo alt presente ma vuoto. I tool consigliati permettono di rilevare la presenza o l'assenza dell'attributo alt o la presenza dell'attributo alt con valore vuoto. Al verificatore spetta il compito di verificare che, nel caso di immagini informative, l'attributo alt sia vuoto in modo che venga ignorato dalle tecnologie assistive.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "29",
+        "wcagLevel": "AA",
+        "title": "Utilizzo del testo anziché di immagini",
+        "purpose": "Verificare che dove possibile sia usato il testo anziché immagini di testo, eccetto per i logotipi",
+        "procedure": "Individuare tutte le immagini contenenti testo. Verificare se la stessa informazione possa essere inserita tramite testo. La regola non si applica ai logotipi. Il tool consigliato è in grado di evidenziare visivamente la presenza di immagini con testo.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "images"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "30",
+        "wcagLevel": "AAA",
+        "title": "Utilizzo delle immagini per sola presentazione",
+        "purpose": "Verificare che le immagini di testo siano usate solo per scopi di presentazione, eccetto nel caso dei logotipi",
+        "procedure": "Individuare tutte le immagini presenti nella pagina e verificare che in nessun caso queste contengano testo. La regola non si applica ai logotipi.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "images"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "31",
+        "wcagLevel": "A",
+        "title": "Alternative testuali per le immagini",
+        "purpose": "Verificare che sia disponibile un'alternativa testuale che fornisca una identificazione descrittiva per il contenuto del media",
+        "procedure": "Individuare nella pagina tutti i media multimediali, audio e video, e verificare per ognuno di essi che sia disponibile anche una descrizione testuale del contenuto. I tool consigliati permettono di evidenziare, visivamente e nel codice, la presenza di contenuti multimediali, mentre al verificatore spetta il compito di analizzare la presenza e la corrispondenza dell'alternativa testuale.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "32",
+        "wcagLevel": "A",
+        "title": "Alternativa testuale per i media",
+        "purpose": "Verificare che sia disponibile una descrizione testuale in giusta sequenza del contenuto audio preregistrato",
+        "procedure": "Individuare nella pagina tutti i media audio prereregistrati e verificare che per ognuno sia disponibile una descrizione del contenuto nella stessa sequenza in cui è presentato nell'audio.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "33",
+        "wcagLevel": "A",
+        "title": "Alternativa testuale o audio temporizzata per video preregistrato",
+        "purpose": "Verificare che sia disponibile una descrizione testuale in giusta sequenza del contenuto video preregistrato oppure una traccia audio equivalente",
+        "procedure": "Individuare nella pagina tutti i media video prereregistrati e verificare che per ognuno sia disponibile una descrizione del contenuto nella stessa sequenza in cui è presentato nel video.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "34",
+        "wcagLevel": "A",
+        "title": "Sottotitoli per media preregistrato contenente audio",
+        "purpose": "Verificare che siano forniti sottotitoli per il media preregistrato contenente audio",
+        "procedure": "Individuare nella pagina tutti i media preregistrati in cui sia presente audio e verificare che per ognuno siano forniti i sottotitoli.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "35",
+        "wcagLevel": "A",
+        "title": "Audio descrizione o alternativa testuale per video preregistrati",
+        "purpose": "Verificare che sia disponibile una audio-descrizione o descrizione di testo in giusta sequenza per i video preregistrati",
+        "procedure": "Individuare nella pagina tutti i video preregistrati e verificare per ognuno che sia disponibile una descrizione del contenuto nello stesso ordine in cui è presente nel video oppure una audio-descrizione alternativa.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "36",
+        "wcagLevel": "A",
+        "title": "Controllo del media audio",
+        "purpose": "Verificare che i media con audio siano completamente controllabili dall’utente (andare avanti, indietro, mettere in pausa, alzare/abbassare il volume, ecc.)",
+        "procedure": "Individuare tutti i media contenenti audio e verificare che sia disponibile un meccanismo per gestire l'andamento del media (fermare e riavviare) e per gestire il volume.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media",
+            "behavior",
+            "dynamic-elements",
+            "usage-time"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "37",
+        "wcagLevel": "A",
+        "title": "Controllo dei contenuti dinamici",
+        "purpose": "Verificare che l’utente possa mettere in pausa e riprendere la lettura del contenuto o disabilitare il limite di tempo quando è presente un limite al tempo di lettura dei contenuti",
+        "procedure": "Individuare tutti i contenuti per i quali è presente un limite di tempo alla lettura e verificare che sia disponibile per l'utente un meccanismo per mettere in pausa la lettura oppure per disabilitare il limite.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media",
+            "behavior",
+            "dynamic-elements",
+            "usage-time"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "38",
+        "wcagLevel": "A",
+        "title": "Lampeggio dei contenuti 1",
+        "purpose": "Verificare che i contenuti lampeggianti, in movimento o che si auto aggiornano (come i caroselli) siano completamente controllabili dall’utente (andare avanti, indietro, mettere in pausa, fermare, nascondere, ecc.)",
+        "procedure": "Individuare tutti i contenuti in movimento, lampeggianti o che si auto aggiornano e verificare che sia disponibile un meccanismo che permette all'utente la loro completa gestione.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "behavior",
+            "animations"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "39",
+        "wcagLevel": "A",
+        "title": "Lampeggio dei contenuti 2",
+        "purpose": "Verificare che nessun elemento lampeggi per più di tre volte in un secondo oppure che il lampeggiamento sia al di sotto della soglia generale di lampeggiamento e della soglia del lampeggiamento rosso",
+        "procedure": "Individuare nella pagina tutti i contenuti lampeggianti e verificare che il lampeggiamento sia inferiore alle tre volte per secondo o alla soglia del lampeggiamento rosso.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "behavior",
+            "animations"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "40",
+        "wcagLevel": "AA",
+        "title": "Sottotitoli per media audio in tempo reale",
+        "purpose": "Verificare che siano forniti sottotitoli per i media contenenti audio in tempo reale",
+        "procedure": "Individuare tutti i contenuti audio in tempo reale presenti nella pagina e verificare che siano disponibili sottotitoli in tempo reale.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media",
+            "behavior",
+            "dynamic-elements",
+            "usage-time"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "41",
+        "wcagLevel": "AA",
+        "title": "Audio-descrizione per tutti i contenuti video preregistrati",
+        "purpose": "Verificare che sia presente un audio-descrizione per tutti i contenuti video preregistrati",
+        "procedure": "Individuare tutti i contenuti video preregistrati presenti nella pagina e verificare che sia disponibile una audio-descrizione per ognuno di essi.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "42",
+        "wcagLevel": "AAA",
+        "title": "Lingua dei segni per audio preregistrato",
+        "purpose": "Verificare che sia fornita l’interpretazione con la lingua dei segni per l’audio preregistrato",
+        "procedure": "Individuare tutti i contenuti audio preregistrati presenti nella pagina e verificare che sia disponibile l'interpretazione in lingua dei segni per ognuno di essi.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "43",
+        "wcagLevel": "AAA",
+        "title": "Audio-descrizione estesa per i video preregistrati",
+        "purpose": "Verificare che sia disponibile l’audio-descrizione estesa per i video preregistrati",
+        "procedure": "Individuare tutti i contenuti video preregistrati presenti nella pagina e verificare che sia disponibile una audio-descrizione estesa per ognuno di essi.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "44",
+        "wcagLevel": "AAA",
+        "title": "Alternativa per tutti i media preregistrati",
+        "purpose": "Verificare la presenza di un’alternativa per tutti i media preregistrati come descrizione di testo in giusta sequenza",
+        "procedure": "Individuare tutti i contenuti video preregistrati presenti nella pagina e verificare che sia disponibile una descrizione testuale del contenuto nella stessa sequenza in cui compare nel video per ognuno di essi.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "45",
+        "wcagLevel": "AAA",
+        "title": "Alternativa per audio in tempo reale",
+        "purpose": "Verificare la presenza di un’alternativa per l’audio in tempo reale",
+        "procedure": "Individuare tutti i contenuti audio in tempo reale presenti nella pagina e verificare che sia disponibile un'alternativa testuale per ognuno di essi.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "46",
+        "wcagLevel": "AAA",
+        "title": "Sottofondo e audio preregistrati",
+        "purpose": "Verificare che per gli audio preregistrati non sia presente sottofondo o che possa essere disattivato o che sia 4 volte più silenzioso rispetto al parlato in primo piano",
+        "procedure": "Individuare tutti i contenuti con audio preregistrato e verificare che non sia presente sottofondo oppure che il sottofondo possa essere disattivato o che sia 4 volte più silenzioso del parlato principale.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "47",
+        "wcagLevel": "AAA",
+        "title": "Lampeggio dei contenuti 3",
+        "purpose": "Verificare che non sia presente nulla che lampeggi più di tre volte in un secondo",
+        "procedure": "Analizzare il contenuto della pagina e verificare che non sia presente nulla che lampeggi più di tre volte in un secondo.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "behavior",
+            "animations"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "48",
+        "wcagLevel": "AAA",
+        "title": "Disabilitazione animazioni",
+        "purpose": "Verificare che le animazioni innescate dall’interazione dell’utente possano essere disabilitate",
+        "procedure": "Individuare tutte le animazioni del contenuto innescate dall'interazione dell'utente e verificare che queste possano essere disabilitate con qualche meccanismo reso chiaro all'utente.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "media",
+            "behavior",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "49",
+        "wcagLevel": "A",
+        "title": "Alternativa testuale dei grafici",
+        "purpose": "Verificare che i grafici abbiano una descrizione testuale (es. longdesc)",
+        "procedure": "Individuare tutti i grafici presenti nella pagina e verificare che sia disponibile anche una descrizione testuale che ne descriva il significato.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "charts"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "50",
+        "wcagLevel": "AA",
+        "title": "Contrasto dei grafici",
+        "purpose": "Verificare che i grafici abbiano un contrasto adeguato (almeno 3:1 rispetto al contenuto vicino; il testo di almeno 4.5:1 se inferiore ai 18 punti o a 14pt se in grassetto, di 3:1 altrimenti)",
+        "procedure": "Individuare tutti i grafici presenti nella pagina e analizzare i colori utilizzati. In particolare, verificare che vi sia un contrasto adeguato rispetto ai contenuti vicini e nel testo presente nel grafico. I tool consigliati permettono di analizzare il contrasto dei colori nella pagina e rilevare problemi di conformità nei colori usati, oppure aiutano lo sviluppatore a individuare una palette di colori con contrasto adeguato.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "charts",
+            "presentation",
+            "colors",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "51",
+        "wcagLevel": "A",
+        "title": "Colore dei link",
+        "purpose": "Verificare che il colore non sia l’unico mezzo per identificare un link (per esempio mantenere la sottolineatura)",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che sia chiaro anche visivamente che si tratti di un link, non solo usando il colore, ma anche usando la sottolineatura o altra convenzione interna che deve essere rispettata in tutto il sito. I tool consigliati permettono di evidenziare elementi che non è chiaro siano link.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "presentation",
+            "colors",
+            "css",
+            "structure",
+            "link"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "52",
+        "wcagLevel": "A",
+        "title": "Scopo del link - contesto",
+        "purpose": "Verificare che sia chiaro lo scopo di ciascun link dal contesto in cui è inserito:\n• utilizzando l’etichetta del link o \n• dalla frase in cui è inserito o \n• aggiungendo l’attributo title o \n• usando l’attributo aria-label per le tecnologie assistive",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare, dal contesto in cui sono inseriti, che sia chiaro il loro scopo a tutti gli utenti, compresi quelli che utilizzano tecnologie assistive. In particolare fare attenzione che dal contesto sia chiaro se si tratta di un link interno o esterno, se si verifica un cambio nella lingua della destinazione, se si avvia l'apertura di un documento in formato non web e in generale ogni cambio di contesto significativo.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "structure",
+            "link",
+            "navigation",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "53",
+        "wcagLevel": "A",
+        "title": "Ancora dei link",
+        "purpose": "Verificare che l’ancora dei link abbia una definizione chiara e che non sia ripetuta o vuota",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che l'ancora del link non sia vuota e che la sua definizione renda chiaro lo scopo del link. I tool consigliati permettono di evidenziare la presenza di ancore ambigue, ripetute o vuote e in generale di evidenziare ogni link presente nella pagina.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "structure",
+            "link"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "54",
+        "wcagLevel": "AA",
+        "title": "Contrasto dei link",
+        "purpose": "Verificare che i link siano evidenziati correttamente (visitato/non visitato) con un contrasto adeguato di almeno 3:1 rispetto ai colori adiacenti",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che il colore venga usato per evidenziarne lo stato in modo adeguato, ovvero mantenendo un rapporto di 3:1 rispetto ai colori vicini. I tool consigliati permettono di evidenziare i link e di analizzare il contrasto dei colori usati oppure aiutano lo sviluppatore a individuare una palette di colori con contrasto adeguato.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "presentation",
+            "colors",
+            "css",
+            "structure",
+            "link"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "55",
+        "wcagLevel": "AAA",
+        "title": "Scopo dei link - testo",
+        "purpose": "Verificare che lo scopo del link sia comprensibile dal solo testo del link",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che lo scopo del link sia chiaro a tutti gli utenti, compresi quelli che utilizzano le tecnologie assistive, dal solo testo del link.  In particolare fare attenzione che dal contesto sia chiaro se si tratta di un link interno o esterno, se si verifica un cambio nella lingua della destinazione, se si avvia l'apertura di un documento in formato non web e in generale ogni cambio di contesto significativo.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "links",
+            "text",
+            "navigation",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "56",
+        "wcagLevel": "N.A.",
+        "title": "Destinazione link",
+        "purpose": "Verificare che sia chiaro dove portano (link interno/esterno)",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che sia opportunamente indicato o chiaro se il link è interno o esterno al sito in cui ci si trova a tutti gli utenti.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "links",
+            "text",
+            "navigation",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "57",
+        "wcagLevel": "N.A.",
+        "title": "Cambio di contesto, download dei link",
+        "purpose": "Verificare che sia chiaro un eventuale cambio di contesto (visualizzazione pdf online) o la presenza di un download (eventualmente la dimensione)",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che sia evidente a tutti gli utenti un eventuale cambio di contesto significativo (documenti non web, download)",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "structure",
+            "link",
+            "behavior",
+            "navigation",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "58",
+        "wcagLevel": "N.A.",
+        "title": "Link circolari e link rotti",
+        "purpose": "Verificare la presenza di link circolari o rotti",
+        "procedure": "Analizzare il sorgente della pagina ed effettuare una prova di navigazione per individuare la presenza di link rotti o circolari. I tool consigliati permettono di individuare link rotti.",
+        "category": "A",
+        "tags": [
+            "contents",
+            "structure",
+            "links",
+            "text",
+            "navigation",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "59",
+        "wcagLevel": "N.A.",
+        "title": "Lingua di destinazione dei link",
+        "purpose": "Verificare che sia chiara la lingua del documento destinazione",
+        "procedure": "Individuare tutti i link presenti nella pagina e verificare che sia chiaro a tutti gli utenti quando il link porta a un sito o documento la cui lingua differisce dalla lingua principale della pagina di partenza.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "links",
+            "text",
+            "navigation",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "60",
+        "wcagLevel": "A",
+        "title": "Colore come unica fonte di informazione",
+        "purpose": "Verificare che il colore non sia l’unico mezzo per fornire informazioni all’utente (come identificare link, campi obbligatori o errori nelle form)",
+        "procedure": "Analizzare la visualizzazione della pagina e individuare tutti i punti in cui il colore viene usato per trasmettere informazioni. Verificare che la stessa informazione sia trasmessa anche in altro modo: differenza nel font, simboli, descrizione testuale, ecc.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "colors",
+            "contents"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "61",
+        "wcagLevel": "A",
+        "title": "Riferimenti a colori",
+        "purpose": "Verificare che non siano presenti riferimenti ai colori per orientarsi nel sito",
+        "procedure": "Effettuare una prova di navigazione della pagina e verificare che non siano presenti riferimenti a colori per orientarsi o svolgere operazioni nella pagina.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "colors",
+            "contents",
+            "structure",
+            "orientation",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "62",
+        "wcagLevel": "AA",
+        "title": "Contrasto adeguato nel testo e nelle immagini",
+        "purpose": "Verificare l’uso di un contrasto adeguato nel testo e nelle immagini di testo: almeno 4.5:1 per il testo piccolo (inferiore a 18 pt o 14 pt se in grassetto) e 3:1 per il testo grande (maggiore o uguale a 18pt o 14pt se in grassetto)",
+        "procedure": "Utilizzare i tool consigliati per analizzare il risultato visuale della pagina oppure per individuare una palette di colori con contrasto adeguato da usare nella pagina: 4.5:1 per testo piccolo e 3:1 per testo grande.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "alternativa",
+            "colors",
+            "contrasto",
+            "text",
+            "images"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "63",
+        "wcagLevel": "AA",
+        "title": "Contrasto adeguato per i contenuti",
+        "purpose": "Verificare che oggetti grafici, componenti di interfaccia, diagrammi oppure il colore usato per evidenziare gli stati di elementi testuali (visited, hover, focus…) abbiano un contrasto adeguato di almeno 3:1 rispetto agli oggetti vicini",
+        "procedure": "Utilizzare i tool consigliati per analizzare il risultato visuale degli oggetti grafici, diagrammi, componenti di interfaccia o il colore dello stato degli elementi oppure per individuare una palette di colori con contrasto adeguato da usare nella pagina.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "64",
+        "wcagLevel": "AAA",
+        "title": "Contrasto elevato nel testo e nelle immagini",
+        "purpose": "Verificare l’uso di un contrasto forte nel testo e nelle immagini di testo: almeno 7:1 per il testo piccolo (inferiore a 18 pt o 14 pt se in grassetto) e 4.5:1 per il testo grande (maggiore o uguale a 18pt o 14pt se in grassetto)",
+        "procedure": "Utilizzare i tool consigliati per analizzare il risultato visuale della pagina oppure per individuare una palette di colori con contrasto adeguato da usare nella pagina: 7:1 per testo piccolo e 4.5:1 per testo grande.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "text",
+            "images",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "65",
+        "wcagLevel": "N.A.",
+        "title": "Contrasto e scala di grigi",
+        "purpose": "Verificare il contrasto dei colori visualizzando la pagina in scala di grigi",
+        "procedure": "Utilizzare gli strumenti consigliati per verificare la visualizzazione e comprensione della pagina in scala di grigi.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "text",
+            "images",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "66",
+        "wcagLevel": "N.A.",
+        "title": "Comprensione sito senza colori",
+        "purpose": "Verificare la visualizzazione del sito e la comprensibilità delle informazioni in un sito privo di colori",
+        "procedure": "Utilizzare gli strumenti consigliati per verificare la visualizzazione e comprensione della pagina quando non sono presenti colori.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "text",
+            "images",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "67",
+        "wcagLevel": "N.A.",
+        "title": "Comprensione del sito con diversi colori",
+        "purpose": "Verificare la visualizzazione del sito con colori invertiti o con diversi filtri colore che simulino la visualizzazione del sito da parte di persone affette da diverse tipologie di discromatopsia",
+        "procedure": "Utilizzare gli strumenti consigliati per verificare la visualizzazione e comprensione della pagina da parte di persone affette da discromatopsia.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "presentation",
+            "text",
+            "images",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "68",
+        "wcagLevel": "A",
+        "title": "Colore come unica identificazione di campi obbligatori o errori",
+        "purpose": "Verificare che il colore non sia l’unico mezzo per identificare campi obbligatori o errori",
+        "procedure": "Individuare i campi obbligatori delle form presenti nella pagina e verificare che l'obbligatorietà sia evidenziata non solo con il colore, ma usando simboli o descrizioni. Effettuare poi una prova di compilazione con valori errati per verificare che gli errori siano correttamente evidenziati, in modo visuale usando il colore, ma anche altre convenzioni visive. Tutte le informazioni devono essere rese disponibili anche alle tecnologie assistive.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "presentation",
+            "text",
+            "colors",
+            "behavior",
+            "input",
+            "errors",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "69",
+        "wcagLevel": "A",
+        "title": "Form accessibile da tastiera",
+        "purpose": "Verificare che la form sia completamente accessibile e compilabile anche da tastiera",
+        "procedure": "Effettuare una prova di compilazione e invio di una form utilizzando come modalità di input solamente la tastiera. I tool consigliati permettono di evidenziare i componenti interattivi che ricevono/non ricevono correttamente il focus da tastiera.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "input",
+            "keyboard",
+            "forms",
+            "behavior"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "70",
+        "wcagLevel": "A",
+        "title": "Istruzioni per i form",
+        "purpose": "Verificare la presenza di istruzioni chiare che aiutino a compilare correttamente la form con le informazioni richieste",
+        "procedure": "Individuare tutte le form presenti nella pagina e verificare che siano presenti istruzioni chiare che aiutino l'utente a inserire i dati corretti.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "behavior",
+            "input",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "71",
+        "wcagLevel": "A",
+        "title": "Label per ogni campo di input",
+        "purpose": "Verificare l’uso corretto delle label per ogni campo di input utilizzando identificativi non ambigui in corrispondenza dell’elemento cui si riferiscono",
+        "procedure": "Individuare tutti i campi di input presenti nella pagina e verificare che per ognuno sia disponibile un'univoca label che ne descriva il significato. I tool consigliati evidenziano la presenza o assenza del tag label associato a un campo di input. Al verificatore spetta il compito di verificare se il testo inserito è sufficientemente esplicativo.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "behavior",
+            "input",
+            "forms",
+            "html",
+            "structure"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "72",
+        "wcagLevel": "A",
+        "title": "Identificazione elementi obbligatori",
+        "purpose": "Verificare la corretta identificazione degli elementi obbligatori",
+        "procedure": "Individuare tutti i campi di input presenti nella pagina e verificare che sia chiaro quali sono obbligatori. L'informazione deve essere trasmessa in diversi modi: col colore, con simboli derivanti da convenzioni (es. asterisco), con descrizione testuale, con indicazione alle tecnologie assistive (aria-required)",
+        "category": "M",
+        "tags": [
+            "contents",
+            "presentation",
+            "behavior",
+            "text",
+            "images",
+            "text",
+            "colors",
+            "input",
+            "errors",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "73",
+        "wcagLevel": "A",
+        "title": "Chiarezza degli errori",
+        "purpose": "Verificare la presenza di errori chiari che aiutino l’utente a correggersi in corrispondenza del campo che ha dato errore, aiutandosi anche con il colore, ma evitando che sia l’unico mezzo (per esempio usare elementi semantici come strong)",
+        "procedure": "Effettuare una prova di compilazione della form con valori errati e analizzare gli errori ricevuti. Verificare che gli errori siano correttamente enfatizzati (tramite l'uso del colore, usando markup tipo strong, con indicazione alle tecnologie assistive) e che il messaggio sia sufficientemente escplicativo e aiuti l'utente a inserire i valori corretti.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "presentation",
+            "behavior",
+            "text",
+            "images",
+            "text",
+            "colors",
+            "input",
+            "errors",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "74",
+        "wcagLevel": "A",
+        "title": "Corretto utilizzo delle label",
+        "purpose": "Verificare che negli elementi che contengono testo o immagini di testo, per i quali è presentata una label, l’attributo name contenga anche il testo che viene presentato visivamente",
+        "procedure": "Analizzare tutte le label presenti per i campi di input e verificare che il nome accessibile, visibile alle tecnologie assistive, comprenda il testo presente nella label.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "text",
+            "input",
+            "forms",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "75",
+        "wcagLevel": "A",
+        "title": "Corretto utilizzo di legend e fieldset",
+        "purpose": "Verificare l’uso corretto di fieldset e legend per raggruppare e descrivere elementi della stessa sezione (eventualmente in associazione al ruolo aria-group)",
+        "procedure": "Individuare tutte le form o gruppi di campi di input presenti nella pagina e verificare se siano stati usati correttamente gli elementi fieldset e legend oppure il ruolo aria-group per evidenziare la correlazione tra i campi di input. I tool consigliati evidenziano la presenza o l'assenza di queste indicazioni, mentre al verificatore spetta il compito di verificare che il raggruppamento sia corretto. Il raggruppamento deve essere chiaro sia visivamente che alle tecnologie assistive.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "structure",
+            "text",
+            "behavior",
+            "input",
+            "forms",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "76",
+        "wcagLevel": "A",
+        "title": "Corretta impostazione dei campi di input dei form",
+        "purpose": "Verificare che per ogni elemento della form nome, valore e stato siano impostati correttamente e che la notifica sui cambi di stato (es. radio button selezionato) sia resa disponibile ai programmi utente, comprese le tecnologie assistive assistive",
+        "procedure": "Individuare tutti i campi delle form presenti nella pagina e verificare che il nome, il valore e lo stato degli elementi siano validi e corretti. I tool consigliati permettono di evidenziare i valori degli attributi inseriti. Effettuare poi una prova di compilazione e invio della form per verificare che siano resi evidenti all'utente i cambi di stato degli elementi.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "structure",
+            "text",
+            "behavior",
+            "input",
+            "forms",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "77",
+        "wcagLevel": "AA",
+        "title": "Autocompletamento nei campi di input",
+        "purpose": "Verificare l’uso dell’attributo di autocompletamento per far suggerire all’utente i dati attesi o fornire input precedenti",
+        "procedure": "Individuare tutti i campi di input presenti nella pagina e verificare l'uso dell'attributo di autocompletamento. I tool consigliati permettono di evidenziare la presenza o assenza dell'attributo.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "structure",
+            "text",
+            "behavior",
+            "input",
+            "forms",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "78",
+        "wcagLevel": "AA",
+        "title": "Chiarezza dei campi di input",
+        "purpose": "Verificare che sia chiaro lo scopo di ogni campo di input (es. username, password)",
+        "procedure": "Effettuare una prova di compilazione della form presente nella pagina e verificare che dalle label e dalle indicazioni di compilazione sia chiaro lo scopo di ogni campo.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "input",
+            "forms",
+            "html",
+            "data"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "79",
+        "wcagLevel": "AA",
+        "title": "Suggerimenti per correggere errore",
+        "purpose": "Verificare la presenza di suggerimenti per correggere un errore di input fornendo una possibile correzione",
+        "procedure": "Effettuare una prova di compilazione della form con valori errati e verificare se vengono forniti suggerimenti di correzione.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "input",
+            "behavior",
+            "errors",
+            "forms",
+            "data"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "80",
+        "wcagLevel": "AA",
+        "title": "Revisione informazioni importanti nei form",
+        "purpose": "Verificare che nelle pagine che presentano transazioni finanziarie o legali l’utente possa rivedere e correggere le informazioni prima dell’invio definitivo o che sia possibile annullare l’invio",
+        "procedure": "Effettuare una prova di compilazione e invio della form presente nella pagina e verificare che, in presenza di transazioni finanziarie o legali, sia possibile rivedere e correggere le informazioni prima dell'invio o che sia possibile annullare l'invio dei dati.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "input",
+            "behavior",
+            "errors",
+            "forms",
+            "data"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "81",
+        "wcagLevel": "AAA",
+        "title": "Revisione informazioni nei form",
+        "purpose": "Verificare che prima di inviare il modulo sia possibile rivedere i dati e correggerli o che sia possibile annullare l’invio",
+        "procedure": "Effettuare una prova di compilazione e invio della form presente nella pagina e verificare che sia possibile rivedere e correggere le informazioni prima dell'invio o che sia possibile annullare l'invio dei dati.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "input",
+            "behavior",
+            "errors",
+            "forms",
+            "data"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "82",
+        "wcagLevel": "AAA",
+        "title": "Chiarezza scopo del form",
+        "purpose": "Verificare che sia chiaro lo scopo di ogni form",
+        "procedure": "Analizzare il sorgente della pagina e verificare l'uso dei corretti ruoli aria in corrispondenza delle form. Per esempio le form di ricerca devono avere ruolo=search.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "data",
+            "structure",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "83",
+        "wcagLevel": "AAA",
+        "title": "Aiuti contestuali alla compilazione dei form",
+        "purpose": "Verificare che siano presenti aiuti contestuali alla compilazione della form (suggerimenti, spelling, formato dati atteso…)",
+        "procedure": "Effettuare una prova di compilazione delle form presenti nella pagina e verificare che siano resi disponibili diversi aiuti alla compilazione, come: suggerimenti di inserimento, correzione dello spelling, indicazione del formato dati atteso.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "data",
+            "structure",
+            "forms",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "84",
+        "wcagLevel": "A",
+        "title": "Corretta struttura delle tabelle",
+        "purpose": "Verificare la progettazione corretta delle tabelle mediante l’uso degli attributi scope, colgroup, col, headers…",
+        "procedure": "Analizzare il sorgente della pagina e verificare l'uso degli elementi semantici corretti per la definizione della tabella. In particolare verificare la presenza degli attributi necessari e descrivere le intestazioni e il verso delle intestazioni (unidimensionali o bidimensionali), in modo che sia chiara la struttura della tabella anche alle tecnologie assistive. I tool consigliati permettono di verificare la correttezza nell'uso degli elementi semantici.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html",
+            "contents",
+            "tables"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "85",
+        "wcagLevel": "A",
+        "title": "Descrizione della struttura delle tabelle",
+        "purpose": "Verificare la presenza di una descrizione alla struttura della tabella (ex attributo summary, per esempio usando la caption)",
+        "procedure": "Individuare nella pagina tutte le tabelle presenti e verificare che per ognuna sia disponibile una descrizione introduttiva alla sua struttura. I tool consigliati permettono di individuare la presenza del tag caption a questo scopo.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html",
+            "contents",
+            "tables"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "86",
+        "wcagLevel": "N.A.",
+        "title": "Trasformazione elegante tabelle",
+        "purpose": "Verificare che le tabelle si trasformino in maniera elegante in caso di poco spazio",
+        "procedure": "Utilizzare gli strumenti consigliati o diversi dispositivi fisici per verificare la trasformazione della tabella in schermi di dimensioni ridotte.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html",
+            "contents",
+            "tables",
+            "presentation",
+            "css",
+            "orientation",
+            "layout"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "87",
+        "wcagLevel": "A",
+        "title": "Notifica contenuto temporizzato",
+        "purpose": "Verificare che l’utente sia notificato della presenza di un contenuto temporizzato e che il tempo di utilizzo limitato possa essere disattivato o esteso",
+        "procedure": "Individuare nella pagina tutti i contenuti temporizzati e verificare che sia disponibile all'utente l'informazione sulla presenza di questo tipo di contenuto e che il tempo limitato possa essere disattivato o esteso.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "usage-time",
+            "media",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "88",
+        "wcagLevel": "AAA",
+        "title": "Presenza limite di tempo e/o esecuzione",
+        "purpose": "Verificare che non sia presente un limite al tempo di esecuzione/utilizzo",
+        "procedure": "Analizzare e effettuare una prova di utilizzo della pagina per verificare che non sia presente alcun limite al tempo di esecuzione o utilizzo dei contenuti.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "usage-time",
+            "media",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "89",
+        "wcagLevel": "AAA",
+        "title": "Interruzioni",
+        "purpose": "Verificare che le interruzioni possano essere rinviate o annullate dall’utente",
+        "procedure": "Individuare tutte le interruzioni alla fruizione dei contenuti e verificare che sia presente un meccanismo per rinviarle o annullarle.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "usage-time",
+            "media",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "90",
+        "wcagLevel": "AAA",
+        "title": "Riautenticazione senza perdita di dati",
+        "purpose": "Verificare che l’utente possa effettuare una nuova autenticazione dopo una sessione scaduta senza perdita di dati dalla sessione precedente",
+        "procedure": "Effettuare un test di utilizzo di pagine in cui sia attiva una sessione autenticata e verificare che alla scadenza della sessione l'utente possa autenticarsi nuovamente senza perdere i dati sui quali stava lavorando.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "authentication"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "91",
+        "wcagLevel": "AAA",
+        "title": "Prolungato stato di inattività",
+        "purpose": "Verificare gli utenti siano notificati nel caso in cui un prolungato tempo di inattività provochi una perdita di dati",
+        "procedure": "Analizzare i contenuti della pagina e verificare la presenza di utilizzi che provocano una perdita di dati in caso di inattività prolungata. Verificare in caso che all'utente sia resa chiara questa eventualità.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "usage-time"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "92",
+        "wcagLevel": "A",
+        "title": "Contenuto testuale come mezzo di esposizione principale",
+        "purpose": "Verificare che il testo sia usato come mezzo principale di esposizione o che sia presente come alternativa per i contenuti non testuali",
+        "procedure": "Analizzare i contenuti della pagina e verificare che tutti i contenuti principali siano presentati tramite testo e che per ogni contenuto non testuale sia presente un'alternativa o descrizione testuale.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "93",
+        "wcagLevel": "AA",
+        "title": "Stile del testo 1",
+        "purpose": "Verificare che siano rispettati i seguenti valori minimi nelle regole CSS per il testo: interlinea 1.5em, spazio tra i paragrafi 2em, spaziatura tra le lettere 0.12em, spazio tra le parole 0.16em",
+        "procedure": "Analizzare il foglio di stile e verificare che le dimensioni e le spaziature del testo siano espresse con unità di misura relative in modo che sia possibile per l'utente sovrascriverne i valori, per esempio per mezzo di un'estensione. I tool consigliati permettono di verificare che sia possibile sovrascrivere i valori di spaziatura del testo per rispettare i valori minimi consigliati dalla regola.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "94",
+        "wcagLevel": "AA",
+        "title": "Ingrandimento testo 1",
+        "purpose": "Verificare che il testo possa essere ingrandito al 200% senza l’uso di tecnologie assistive",
+        "procedure": "Utilizzare gli strumenti consigliati per verificare che il testo possa essere ingrandito del 200%.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "95",
+        "wcagLevel": "AA",
+        "title": "Intestazioni ed etichette",
+        "purpose": "Verificare che intestazioni ed etichette siano significative e consistenti e permettano di identificare una sezione o lo scopo di un componente",
+        "procedure": "Analizzare il contenuto della pagina e individuare tutte le intestazioni e etichette presenti. Verificare che le intestazioni rendando chiaro lo scopo di una sezione e che le etichette chiariscano lo scopo di un componente.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "96",
+        "wcagLevel": "AAA",
+        "title": "Stile del testo 2",
+        "purpose": "Verificare che siano rispettati i seguenti valori minimi nelle regole CSS per il testo: la larghezza non supera gli 80 caratteri o glifi, il testo non è giustificato, l'interlinea è almeno uno spazio e mezzo all'interno dei paragrafi e lo spazio tra paragrafi è almeno una volta e mezzo l'interlinea",
+        "procedure": "Analizzare il foglio di stile e verificare che siano rispettati i vincoli della regola nelle dimensioni e spaziature del testo. Il tool consigliato rileva la presenza di testo giustificato.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "97",
+        "wcagLevel": "AAA",
+        "title": "Personalizzazione del colore o dello sfondo",
+        "purpose": "Verificare che non siano presenti impedimenti alla personalizzazione dei colori del testo e dello sfondo, applicata per esempio tramite un’apposita estensione",
+        "procedure": "Utilizzare gli strumenti del browser o apposite estensioni per modificare il colore del testo e dello sfondo. Verificare che sia possibile eseguire l'operazione.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "behavior"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "98",
+        "wcagLevel": "AAA",
+        "title": "Ingrandimento del testo 2",
+        "purpose": "Verificare che il testo possa essere ridimensionato fino al 200% senza supporto delle tecnologie assistive e senza scroll orizzontale in una finestra a tutto schermo",
+        "procedure": "Utilizzare gli strumenti consigliati per verificare che il testo possa essere ingrandito del 200% e che non si verifichi scroll orizzontale.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "99",
+        "wcagLevel": "AAA",
+        "title": "Descrizione per informazioni testuali inusuali",
+        "purpose": "Verificare che sia fornita una definizione per parole o frasi usate in modo insolito, espressioni gergali, idiomatiche",
+        "procedure": "Analizzare il contenuto della pagina e individuare frasi o parole usate in modo insolito, espressioni gergali o idiomatiche. Verificare che il significato di ognuna di esse sia chiaro nel contesto del sito oppure verificare la presenza di una definizione chiara.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "100",
+        "wcagLevel": "AAA",
+        "title": "Descrizioni abbreviazioni",
+        "purpose": "Verificare che sia disponibile un meccanismo per comprendere le abbreviazioni presenti",
+        "procedure": "Analizzare il contenuto della pagina e individuare tutte le abbreviazioni usate nel testo. Verificare che il loro significato sia chiaro nell'ambito del sito o che sia fornita la sua definizione.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "101",
+        "wcagLevel": "AAA",
+        "title": "Leggibilità del testo",
+        "purpose": "Verificare il livello di leggibilità del testo (istruzione elementare, secondaria inferiore, secondaria superiore) secondo gli indici di leggibilità del testo (es. Indice di Gulpease)",
+        "procedure": "Utilizzare gli strumenti consigliati oppure altri analizzatori di leggibilità del testo per verificare la difficoltà di lettura dei paragrafi di testo (elementare, media, superiore).",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "102",
+        "wcagLevel": "AAA",
+        "title": "Contenuti a supporto della comprensione del testo",
+        "purpose": "Verificare che, se il testo richiede una capacità di lettura più avanzata del livello di istruzione secondaria inferiore, siano disponibili contenuti supplementari per la comprensione o che sia disponibile una versione alternativa più semplice",
+        "procedure": "Analizzare la leggibilità dei paragrafi di testo e verificare che, nel caso il livello di difficoltà sia superiore al livello di istruzione secondaria inferiore, il testo sia comprensibile nell'ambito del sito o in alternativa che sia disponibile una versione equivalente più semplice. I tool consigliati permettono di calcolare la difficoltà di lettura del testo basandosi sull'Indice di Gulpease.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "103",
+        "wcagLevel": "AAA",
+        "title": "Pronuncia corretta",
+        "purpose": "Verificare che sia chiara la pronuncia di parole specifiche o altrimenti ambigue",
+        "procedure": "Analizzare il contenuto della pagina e individuare parole la cui pronuncia corretta è essenziale per la comprensione del testo. Verificare che sia quindi chiara la pronuncia di queste parole.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "104",
+        "wcagLevel": "N.A.",
+        "title": "Leggibilità su più dispositivi",
+        "purpose": "Verificare la leggibilità del font anche su dispositivi, browser e s.o. diversi",
+        "procedure": "Utilizzare i tool consigliati e altri dispositivi fisici per verificare la leggibilità del testo in diversi ambienti e schermi.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload",
+            "presentation",
+            "layout",
+            "structure",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "105",
+        "wcagLevel": "N.A.",
+        "title": "Utilizzo elenchi e liste",
+        "purpose": "Verificare l’uso di elenchi ogni volta che è possibile",
+        "procedure": "Analizzare i contenuti della pagina e verificare l'uso degli elenchi per esporre le informazioni. Al verificatore spetta il compito di verificare se alcuni contenuti presentati come paragrafi possono più efficacemente essere esposti come liste. I tool consiglati permettono di evidenziare l'uso di liste di elementi.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload",
+            "structure",
+            "html",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "106",
+        "wcagLevel": "N.A.",
+        "title": "Esposizione del testo",
+        "purpose": "Verificare che sia usata una esposizione chiara del testo in cui sono evidenziate le informazioni importanti",
+        "procedure": "Effettuare una prova di lettura della pagina e verificare le chiarezza espositiva dei testi. Verificare quindi che le informazioni più importanti siano correttamente evidenziate.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "107",
+        "wcagLevel": "N.A.",
+        "title": "Linguaggio adottato",
+        "purpose": "Verificare che sia stato usato il linguaggio adatto al sito e al target di utenti (registro e termini specifici)",
+        "procedure": "Effettuare una prova di lettura della pagina e verificare che il linguaggio utilizzato sia adatto alla platea di utenti per cui il sito è realizzato.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "108",
+        "wcagLevel": "N.A.",
+        "title": "Correttezza ortografica e grammaticale",
+        "purpose": "Verificare la correttezza ortografica e grammaticale (evitare la presenza di typo)",
+        "procedure": "Utilizzare gli strumenti consigliati o altri tool di verifica ortografica e grammaticale per controllare la correttezza di tutti i testi presenti nella pagina.",
+        "category": "A",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "109",
+        "wcagLevel": "N.A.",
+        "title": "Correttezza delle parole in lingua, tecniche, scientifiche",
+        "purpose": "Verificare la correttezza delle parole straniere e/o tecnico/scientifiche utilizzate",
+        "procedure": "Utilizzare gli strumenti consigliati o altri tool di verifica ortografica e grammaticale per controllare la correttezza di parole o frasi la cui lingua differisce dalla lingua principale della pagina. Effettuare inoltre un controllo di spelling delle parole tecnico/specifiche utilizzate.",
+        "category": "S",
+        "tags": [
+            "contents",
+            "text",
+            "behavior",
+            "cognitive-overload",
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "110",
+        "wcagLevel": "A",
+        "title": "Semplicità utilizzo",
+        "purpose": "Verificare che tutte le operazioni possano essere svolte con un gesto semplice come un singolo tocco o click",
+        "procedure": "Effettuare una prova di utilizzo della pagina e verificare che tutte le operazioni possano essere svolte con un singolo click o tocco o pressione di un tasto.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "dynamic-elements",
+            "cognitive-overload",
+            "structure",
+            "orientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "111",
+        "wcagLevel": "A",
+        "title": "Annullamento operazioni",
+        "purpose": "Verificare che sia possibile annullare le operazioni avviate da input accidentali o errati",
+        "procedure": "Effettuare una prova di utilizzo della pagina e verificare che esista un meccanismo per annullare l'esecuzione di operazioni avviate da azioni accidentali.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "errors",
+            "dynamic-elements",
+            "structure",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "112",
+        "wcagLevel": "AAA",
+        "title": "Stile controlli",
+        "purpose": "Verificare che la dimensione dei controlli sia almeno 44x44 pixel, salvo quando una dimensione inferiore permette comunque di abilitare il controllo. Su mobile è sufficiente che una delle due dimensioni sia di almeno 44 pixel.",
+        "procedure": "Utilizzare gli strumenti consigliati o dispositivi fisici diversi per verificare che la dimensione dei controlli sia sufficiente all'utilizzo con puntatore o tocco su touch screen. Verificare che sia rispettata la dimensione minima di 44x44 pixel o che il simulatore o l'esecuzione fisica di un tocco su dispositivi mobile dia esito positivo in merito alla sufficiente disponibilità di spazio per eseguire l'azione.",
+        "category": "S",
+        "tags": [
+            "presentation",
+            "css",
+            "colors",
+            "contents"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "113",
+        "wcagLevel": "AAA",
+        "title": "Contenuto e modalità di input",
+        "purpose": "Verificare che il contenuto non limiti l’uso di diverse modalità di input e che l’utente possa cambiare e usare diverse modalità insieme (es. sia mouse che tastiera)",
+        "procedure": "Effettuare una prova di utilizzo della pagina attraverso l'uso di modalità di input multiple e simultanee. Verificare quindi che il sito risponda correttamente ed esegua le operazioni corrette.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "contents",
+            "behavior",
+            "input",
+            "forms"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "114",
+        "wcagLevel": "A",
+        "title": "Operazioni azionate da movimento",
+        "purpose": "Verificare che le operazioni azionate dal movimento (agitare, ruotare...) siano accompagnate da una diversa modalità di input (per esempio un pulsante)",
+        "procedure": "Effettuare una prova di utilizzo della pagina e verificare che le operazioni azionate dal movimento possano essere abilitate anche con altre modalità di input.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "input",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "115",
+        "wcagLevel": "A",
+        "title": "Disabilitazione operazioni azionate da movimento",
+        "purpose": "Verificare che sia possibile disabilitare questa modalità per non rischiare di azionare operazioni in modo accidentale",
+        "procedure": "Effettuare una prova di utilizzo della pagina e individuare le operazioni azionate dal movimento. Verificare che sia disponibile un meccanismo per disabilitare queste opzioni.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "input",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "116",
+        "wcagLevel": "A",
+        "title": "Ordine di navigazione",
+        "purpose": "Verificare l’ordine della navigazione e l’attraversamento del contenuto rispetto alla logica della pagina",
+        "procedure": "Analizzare la struttura della pagina e effettuare una prova di attraversamento dei contenuti usando la tastiera. Verificare quindi che l'ordine di attraversamento rispetti la logica della pagina. I tool consigliati permettono di evidenziare la presenza di contenuti che non possono ricevere il focus da tastiera e evidenziano visivamente l'ordine di attraversamento dei componenti interattivi della pagina.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html",
+            "navigation",
+            "keyboard",
+            "behavior",
+            "cognitive-overload",
+            "disorientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "117",
+        "wcagLevel": "A",
+        "title": "Utilizzo tabindex",
+        "purpose": "Verificare l’uso corretto del tabindex",
+        "procedure": "Analizzare il sorgente della pagina e verificare la presenza di tabindex. Verificare che, nel caso i tabindex abbiano valore positivo, questi siano strettamente necessari e non possa essere raggiunto lo stesso risultato riorganizzando la pagina. I tool consigliati permettono di evidenziare, visivamente e nel codice, l'uso del tabindex.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "behavior",
+            "keyboard",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "118",
+        "wcagLevel": "A",
+        "title": "Utilizzo tabindex 0",
+        "purpose": "Verificare l’uso corretto di tabindex=0 per permettere il focus da tastiera a elementi che normalmente non lo hanno",
+        "procedure": "Analizzare il sorgente della pagina e verificare la presenza di tabindex con valore 0 per dare focus a elementi che normalmente non lo ricevono. Effettuare una prova di utilizzo della pagina da tastiera per verificare che effettivamente il componente sia raggiungibile. I tool consigliati permettono di evidenziare, visivamente e nel codice, l'uso del tabindex.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "behavior",
+            "keyboard",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "119",
+        "wcagLevel": "A",
+        "title": "Utilizzo tabindex -1",
+        "purpose": "Verificare l’uso corretto di tabindex=-1 per evitare che un certo elemento riceva il focus da tastiera",
+        "procedure": "Analizzare il sorgente della pagina e verificare la presenza di tabindex con valore -1 per togliere il focus ad alcuni elementi. Effettuare una prova di utilizzo della pagina da tastiera per verificare che effettivamente il componente non sia raggiungibile. I tool consigliati permettono di evidenziare, visivamente e nel codice, l'uso del tabindex.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "behavior",
+            "keyboard",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "120",
+        "wcagLevel": "A",
+        "title": "Navigabilità da tastiera del sito",
+        "purpose": "Verificare che il sito sia navigabile utilizzando la sola navigazione da tastiera e che le informazioni siano comunque tutte raggiungibili senza dispositivo di puntamento nell’ordine corretto",
+        "procedure": "Effettuare una prova di navigazione della pagina e verificare che tutti i componenti interattivi possano essere raggiunti usando solo la tastiera nell'ordine corretto. I tool consigliati permettono di evidenziare la presenza di componenti interattivi non raggiungibili da tastiera e di mostrare visivamente l'ordine di attraversamento della pagina.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html",
+            "behavior",
+            "keyboard",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "121",
+        "wcagLevel": "A",
+        "title": "Utilizzabilità da tastiera del sito",
+        "purpose": "Verificare che tutte le funzionalità offerte tramite componenti interattivi siano utilizzabili usando solo la tastiera",
+        "procedure": "Effettuare una prova di navigazione della pagina e verificare che tutte le operazioni avviate da componenti interattivi possano essere azionate usando solo la tastiera.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "html",
+            "behavior",
+            "keyboard",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "122",
+        "wcagLevel": "A",
+        "title": "Focus da tastiera",
+        "purpose": "Verificare che sia possibile spostare e togliere il focus dagli elementi usando solo la tastiera",
+        "procedure": "Effettuare una prova di navigazione della pagina e verificare che sia possibile dare e togliere il focus dagli elementi presenti in essa usando solo la tastiera.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "html",
+            "behavior",
+            "keyboard",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "123",
+        "wcagLevel": "A",
+        "title": "Funzionalità interattive e scorciatoie da tastiera",
+        "purpose": "Verificare che le eventuali scorciatoie da tastiera impostate possano essere disattivate o rimappate o che siano attive solo quando il focus è sull’elemento per cui esiste la scorciatoia",
+        "procedure": "Analizzare il sorgente della pagina e verificare l'impostazione delle scorciatoie da tastiera. I tool consigliati permettono di evidenziare il loro uso. Verificare quindi che le scorciatoie impostate eseguano l'azione corretta e che sia chiara all'utente la loro presenza. Verificare inoltre che le scorciatoie impostate possano essere disabilitate o rimappate dall'utente oppure che siano attive solo su singoli componenti quando questi ricevono il focus.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html",
+            "behavior",
+            "keyboard",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "124",
+        "wcagLevel": "AA",
+        "title": "Evidenza del focus attivo",
+        "purpose": "Verificare che sia evidente quale elemento ha il focus attivo nella navigazione da tastiera",
+        "procedure": "Effettuare una prova di attraversamento della pagina con la tastiera e verificare che sia evidente il componente su cui è attivo il focus. Verificare quindi che tramite foglio di stile non sia stata rimossa la proprietà outline.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "125",
+        "wcagLevel": "AAA",
+        "title": "Funzionalità interattive utilizzabili da tastiera",
+        "purpose": "Verificare che tutte le funzionalità siano utilizzabili da tastiera senza richiedere tempi specifici di pressione dei tasti",
+        "procedure": "Effettuare una prova di navigazione della pagina e verificare che per l'avvio di operazioni scatenate da componenti interattivi non sia necessario un tempo specifico di pressione dei tasti.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "html",
+            "behavior",
+            "keyboard",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "126",
+        "wcagLevel": "AA",
+        "title": "Utilizzo ruoli waria per messaggi di stato",
+        "purpose": "Verificare che i ruoli siano usati correttamente per comunicare alle tecnologie assistive la presenza di messaggi di stato: per il completamento di operazioni (role status) o per la presenza di errori (role alert) o per lo stato di completamento di un processo (role progressbar o log)",
+        "procedure": "Effettuare una prova di utilizzo della pagina e verificare che in presenza di messaggi di stato collegate ad azioni sulla pagina questi siano resi disponibili anche alle tecnologie assistive. I tool consigliati permettono di evidenziare visiamente e nel codice l'uso di ruoli aria destinati alla comunicazione di messaggi di stato alle tecnologie assistive.",
+        "category": "S",
+        "tags": [
+            "waria",
+            "waria-roles"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "127",
+        "wcagLevel": "A",
+        "title": "Utilizzo ruoli waria per indicare funzioni di elementi o regioni",
+        "purpose": "Verificare che i ruoli aria usati siano corretti per indicare la funzione di ogni elemento o regione presente nella pagina utilizzando, quando il markup html non è sufficiente (es. assegnare il ruolo search a una form di ricerca, il ruolo login a form di login, ma assegnare il ruolo navigation a una sezione marcata come nav in HTML5 è ridondante)",
+        "procedure": "Analizzare il sorgente della pagina e verificare che ogni sezione della pagina sia correttamente individuata mediante l'uso dei corretti ruoli di landamark e region aria. Gli strumenti consigliati permettono di evidenziare visivamente e nel codice l'uso dei ruoli aria per l'identificazione delle sezioni della pagina.",
+        "category": "S",
+        "tags": [
+            "waria",
+            "waria-roles"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "128",
+        "wcagLevel": "A",
+        "title": "Disponibilità notifiche sui cambi di stato",
+        "purpose": "Verificare che le notifiche sui cambi di stato degli elementi siano rese disponibili ai programmi utente, comprese le tecnologie assistive (es. un menu a tendina è stato aperto o una checkbox selezionata)",
+        "procedure": "Effettuare una prova di utilizzo della pagina in particolare dei componenti che possono subire cambi di stato in conseguenza di interazione dell'utente. Verificare che ogni cambio di stato sia notificato e reso disponibile all'utente anche mediante le tecnologie assistive eventualmente usate.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "dynamic-elements",
+            "waria",
+            "waria-states"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "129",
+        "wcagLevel": "A",
+        "title": "Stati waria",
+        "purpose": "Verificare l’uso corretto degli stati ARIA per evidenziare gli stati degli elementi nella pagina (es. elementi disabilitati)",
+        "procedure": "Effettuare una prova di utilizzo della pagina per verificare che alle tecnologie assistive siano correttamente comunicati gli stati e i cambi di stato degli elementi presenti. I tool consigliati permettono di evidenziare l'utilizzo di stati ARIA nella pagina.",
+        "category": "S",
+        "tags": [
+            "waria",
+            "waria-states"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "130",
+        "wcagLevel": "A",
+        "title": "Etichette ARIA",
+        "purpose": "Verificare che il testo dell’etichetta visibile di un componente sia incluso nel suo nome accessibile (cioè il nome letto dalle tecnologie assistive, per esempio aria-label)",
+        "procedure": "Effettuare una prova di utilizzo della pagina utilizzando tecnologie assistive e verificare che il nome accessibile di un componente comprenda anche il testo visibile dello stesso. Il tool consigliato permette di evidenziare il nome accessibile dei componenti della pagina.",
+        "category": "S",
+        "tags": [
+            "waria"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "131",
+        "wcagLevel": "A",
+        "title": "Proprietà ARIA",
+        "purpose": "Verificare l’uso corretto delle proprietà ARIA per evidenziare le caratteristiche degli elementi nella pagina (es. elementi obbligatori in una form)",
+        "procedure": "Effettuare una prova di utilizzo della pagina per verificare che alle tecnologie assistive siano correttamente comunicate le proprietà degli elementi inserite tramite proprietà ARIA. I tool consigliati permettono di evidenziare l'uso di proprietà ARIA nella pagina.",
+        "category": "S",
+        "tags": [
+            "waria",
+            "waria-properties"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "132",
+        "wcagLevel": "A",
+        "title": "Aiuti alla navigazione",
+        "purpose": "Verificare la presenza di aiuti alla navigazione che permettano di saltare a diversi blocchi di contenuti (torna su, salta al contenuto principale, ecc.)",
+        "procedure": "Effettuare una prova di navigazione della pagina, anche usando tecnologie assistive, per verificare la presenza e il corretto funzionamento di aiuti alla navigazione per saltare blocchi di contenuto. I tool consigliati permettono di verificare la presenza di aiuti contestuali, eventualmente disponibili solo per le tecnologie assistive.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "133",
+        "wcagLevel": "A",
+        "title": "Aiuti per identificazioni errori",
+        "purpose": "Verificare la presenza di aiuti all’identificazione degli errori di input",
+        "procedure": "Effettuare una prova di compilazione di campi di input con valori errati e verificare la corretta visualizzazione e comunicazione tramite tecnologie assistive degli errori presenti.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "html",
+            "forms",
+            "behavior",
+            "errors",
+            "input"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "134",
+        "wcagLevel": "AA",
+        "title": "Suggerimenti per correzzione di errori",
+        "purpose": "Verificare la presenza di suggerimenti per la correzione degli errori",
+        "procedure": "Effettuare una prova di compilazione di campi di input con valori errati e verificare la presenza e la corretta comunicazione, visivamente e alle tecnologie assistive, di suggerimenti per la correzione degli errori.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "html",
+            "forms",
+            "behavior",
+            "errors",
+            "input"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "135",
+        "wcagLevel": "AAA",
+        "title": "Aiuti contestuali per funzionalità o inserimento dati",
+        "purpose": "Verificare la presenza di aiuti contestuali per l'utilizzo di una funzionalità o per l'inserimento di dati (suggerimenti, placeholder, spelling, formato dati, assistente virtuale, ecc.)",
+        "procedure": "Effettuare una prova di utilizzo della pagina e verificare che siano disponibili aiuti allo svolgimento delle operazioni presenti sotto diversa forma (per esempio suggerimenti di input, suggerimenti di spelling per la compilazione di form, presenza di un assistente virtuale per aiutare l'utente a usare la pagina, ecc.)",
+        "category": "M",
+        "tags": [
+            "structure",
+            "html",
+            "forms",
+            "behavior",
+            "errors",
+            "input",
+            "contents",
+            "data"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "136",
+        "wcagLevel": "N.A.",
+        "title": "Quantità informazioni",
+        "purpose": "Verificare che non siano presenti troppe informazioni in una pagina",
+        "procedure": "Effettuare una prova di navigazione e lettura della pagina e verificare che le informazioni non creino confusione e non sovraccarichino l'utente compromettendo la comprensione dei contenuti. Verificare che le informazioni siano poche, essenziali e coincise.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "data",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "137",
+        "wcagLevel": "N.A.",
+        "title": "Layout semplice",
+        "purpose": "Verificare che sia usato un layout semplice, chiaro e intuitivo (non più di tre colonne)",
+        "procedure": "Analizzare la visualizzazione della pagina e verificare che la strutturazione delle sezioni della pagina sia chiara e intuitiva, così come lo scopo di ognuna di esse. Verificare che il layout non sia troppo complesso, generalmente senza superare le tre colonne di contenuti.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "cognitive-overload",
+            "presentation",
+            "layout"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "138",
+        "wcagLevel": "N.A.",
+        "title": "Divulgazione progressiva",
+        "purpose": "Verificare la presenza della tecnica di divulgazione progressiva per non sovraccaricare l’utente di informazioni",
+        "procedure": "Effettuare una prova di utilizzo della pagina e verificare che sia usata la tecnica di divulgazione progressiva delle informazioni. Ovvero verificare che siano disponibili meccanismi controllabili dall'utente per visualizzare più o meno informazioni, così come visualizzare un po' alla volta, in modo che all'utente non siano presentate troppe informazioni in una volta.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "text",
+            "data",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "139",
+        "wcagLevel": "A",
+        "title": "Struttura e ordine delle informazioni",
+        "purpose": "Verificare che la struttura e l’ordine delle informazioni sia chiaro",
+        "procedure": "Effettuare una prova di lettura della pagina e verificare che sia chiaro lo scopo di ogni sezione della pagina, l'ordine e la correlazione tra le informazioni.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "text",
+            "data",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "140",
+        "wcagLevel": "A",
+        "title": "Monosensorialità delle informazioni",
+        "purpose": "Verificare che le informazioni fornite per operare sul contenuto non si basino unicamente su caratteristiche sensoriali (colore, forma, posizione, ecc.)",
+        "procedure": "Effettuare una prova di lettura della pagina e verificare che indicazioni operative basate su caratteristiche sensoriali siano disponibili anche in forma testuale equivalente.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "structure",
+            "presentation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "141",
+        "wcagLevel": "A",
+        "title": "Utilizzo tag title",
+        "purpose": "Verificare l’uso corretto del tag title per descrivere e distinguere le pagine e che sia rispettata la convenzione per cui il titolo deve essere dal particolare al generale (se il titolo viene tagliato l’utente comunque conosce la pagina specifica su cui si trova)",
+        "procedure": "Analizzare il sorgente della pagina e individuare il tag title come figlio del tag head nel codice html. Verificare che non ci sia uno stesso valore per il tag title in altre pagine del sito. Verificare che il titolo della pagina vada dal particolare al generale. Verificare quindi la corretta visualizzazione del titolo della pagina come titolo della scheda del browser. I tool consigliati permettono di evidenziare la presenza o l'assenza del tag title nella pagina e il suo valore.",
+        "category": "S",
+        "tags": [
+            "structure",
+            "html"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "142",
+        "wcagLevel": "A",
+        "title": "Scopo collegamenti di contesto",
+        "purpose": "Verificare che sia chiaro lo scopo dei collegamenti nel contesto in cui sono inseriti",
+        "procedure": "Individuare tutti i collegamenti presenti nella pagina e verificare dal contesto in cui sono inseriti, per esempio nel menu o nel testo principale, che sia chiaro il loro scopo, la pagina o documento destinazione.",
+        "category": "M",
+        "tags": [
+            "contents",
+            "links",
+            "structure",
+            "text"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "143",
+        "wcagLevel": "A",
+        "title": "Ordine del focus da tastiera",
+        "purpose": "Verificare che l’ordine con cui viene dato il focus nella navigazione da tastiera sia coerente e corretto",
+        "procedure": "Effettuare una prova di navigazione della pagina da tastiera per verificare l'ordine di attraversamento degli elementi interattivi. Verificare quindi che l'ordine sia corretto e coerente rispetto alla logica della pagina.",
+        "category": "S",
+        "tags": [
+            "behavior",
+            "keyboard"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "144",
+        "wcagLevel": "AA",
+        "title": "Disposizione elementi ricorrenti",
+        "purpose": "Verificare che elementi ricorrenti nel sito (menu, casella di ricerca, login, registrazione, account, aiuti contestuali, salta al contenuto, torna su, ecc.) siano disposti sempre nella stessa posizione e con lo stesso ordine",
+        "procedure": "Effettuare una prova di navigazione del sito per verificare posizione e ordine degli elementi ricorrenti su più pagine. Verificare quindi che gli elementi che si ripetono siano presentati sempre nello stesso ordine e posizione. Verificare che la stessa coerenza di navigazione sia disponibile anche per le tecnologie assistive.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "structure",
+            "contents"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "145",
+        "wcagLevel": "AA",
+        "title": "Corenza e consistenza elementi ricorrenti",
+        "purpose": "Verificare che elementi ricorrenti che rappresentano la stessa funzionalità siano presentati in modo coerente e consistente in tutto il sito (per esempio i link che rispettino la colorazione secondo una convenzione interna)",
+        "procedure": "Effettuare una prova di navigazione del sito per verificare struttura e forma degli elementi che svolgono funzionalità ricorrenti su più pagine. Verificare quindi che nella rappresentazione di questi elementi siano rispettate le convenzioni interne del sito . Verificare che la stessa coerenza di rappresentazione sia veicolata anche alle tecnologie assistive.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "structure",
+            "contents"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "146",
+        "wcagLevel": "AA",
+        "title": "Individuazione pagina attraverso più modalità",
+        "purpose": "Verificare che siano disponibili diverse modalità per individuare una pagina web (table of content, mappa del sito, funzionalità di ricerca, elenco dei link alle pagine del sito)",
+        "procedure": "Analizzare la pagina all'interno del sito e verificare che questa sia raggiungibile in diversi modi: tramite il menu di navigazione, attraverso la funzionalità di ricerca, tramite una table of content o una sitemap.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "147",
+        "wcagLevel": "AA",
+        "title": "Ritorno alla homepage",
+        "purpose": "Verificare che da ogni pagina sia possibile tornare all’homepage",
+        "procedure": "Effettuare una prova di navigazione del sito e verificare che da ogni pagina sia possibile tornare all'homepage, per esempio tramite il breadcrumb o il logo del sito.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "148",
+        "wcagLevel": "AAA",
+        "title": "Orientamento all'interno di un insieme di pagine",
+        "purpose": "Verificare che sia presente la posizione dell’utente all’interno di un insieme di pagine, per esempio usando il breadcrumb",
+        "procedure": "Analizzare la pagina e verificare che sia disponibile l'indicazione della posizione dell'utente su quella pagina rispetto alla struttura del sito.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "149",
+        "wcagLevel": "AAA",
+        "title": "Ruoli nelle pagine",
+        "purpose": "Verificare che per l’utente sia chiaro il ruolo di ogni sezione della pagina (come effettuare il login, registrazione, come navigare i contenuti, ecc.)",
+        "procedure": "Analizzare la pagina ed effettuare una prova di utilizzo. Verificare che sia chiaro lo scopo e le funzionalità offerte da ciascuna sezione.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "contents",
+            "navigation",
+            "waria",
+            "waria-roles"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "150",
+        "wcagLevel": "N.A.",
+        "title": "Pagina 404",
+        "purpose": "Verificare la presenza di una pagina 404 che aiuti l’utente a proseguire la navigazione",
+        "procedure": "Analizzare la pagina 404 del sito e verificare che questa sia sufficientemente chiara per l'utente per continuare la navigazione e trovare l'informazione cercata senza provocargli disagio.",
+        "category": "M",
+        "tags": [
+            "structure",
+            "contents",
+            "navigation",
+            "orientation",
+            "disorientation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "151",
+        "wcagLevel": "A",
+        "title": "Autenticazione basata su test cognitivi",
+        "purpose": "Verificare che il processo di autenticazione basato su test cognitivi abbia alternative non basate su test cognitivi o un meccanismo di assistenza",
+        "procedure": "Rendere il processo di autenticazione accessibile. Se il processo è basato su un test cognitivo dev'essere presente almeno un metodo alternativo non basato su un metodo cognitivo o un meccanismo di assistenza per completare il test.",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "authentication"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "152",
+        "wcagLevel": "AA",
+        "title": "Trascinamento e click",
+        "purpose": "Verificare che il trascinamento sia  sostituibile da singolo click",
+        "procedure": "Una funzionalità che utilizza un movimento di trascinamento dev'essere completata con un singolo click",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "dynamic-elements"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "153",
+        "wcagLevel": "A",
+        "title": "Aiuti consistenti",
+        "purpose": "Verificare la presenza di aiuti consistenti",
+        "procedure": "Se presente una maniera o un'informazione che consente di trovare aiuto, essa dev'essere raggiungibile",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "contents",
+            "structure",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "154",
+        "wcagLevel": "A",
+        "title": "Page breaker navigabili",
+        "purpose": "Verificare che i page braker siano navigabili",
+        "procedure": "Se presente un page break locator, dev'essere presente un meccanismo per navigare in ogni locator",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "contents",
+            "structure",
+            "navigation"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "155",
+        "wcagLevel": "AA",
+        "title": "Contrasto del focus - base",
+        "purpose": "Verificare contrasto del focus del componente",
+        "procedure": "Analizza il colore del focus: esso deve avere almeno un contrasto 3:1 tra componente focalizzato e componente non focalizzato",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "156",
+        "wcagLevel": "AA",
+        "title": "Outline e dimensione del focus - base",
+        "purpose": "Verificare outline e dimensione focus",
+        "procedure": "Focus: outline di almeno 1px più spesso del perimentro non focalizzao o l'area più spessa di 4px nel lato più corto e in ogni caso non eno di 2px",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "157",
+        "wcagLevel": "AA",
+        "title": "Outline e dimensione del focus - avanzato",
+        "purpose": "Verificare outline e dimensione focus",
+        "procedure": "Focus: contrasto tral'area focalizzata e colori adiacenti deve essere almeno di 3:1 o l'area deve avere perlomeno uno spessore di 2px",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "158",
+        "wcagLevel": "AA",
+        "title": "Contrasto focus e elementi adiacenti",
+        "purpose": "Verificare contrasto del focus tra componente e elementi adiacenti",
+        "procedure": "Focus: gli elementi focalizzati non sono nascosti interamente da altri elementi",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "159",
+        "wcagLevel": "AAA",
+        "title": "Contrasto del focus - avanzato",
+        "purpose": "Verificare contrasto del focus del componente",
+        "procedure": "Focus: almeno un contrasto 4:5:1 tra componente focalizzato e componente non focalizzato",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "160",
+        "wcagLevel": "AAA",
+        "title": "Dimensione focus",
+        "purpose": "Verificare dimensione focus",
+        "procedure": "Verifica che nel focus l'area di contrasto almeno metà dell'area",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "161",
+        "wcagLevel": "AAA",
+        "title": "Visibilità elementi focalizzati",
+        "purpose": "Verificare visibilità parziale degli elementi focalizzati",
+        "procedure": "Focus: gli elementi focalizzati non sono nascosti nemmeno parzialmente da altri elementi",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "162",
+        "wcagLevel": "AA",
+        "title": "Visibilità informazioni",
+        "purpose": "Verificare visibilità informazioni",
+        "procedure": "L'utente deve sapere quando dei componenti  diventano visibili dopo azioni di  hover, focus o click",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css",
+            "colors"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "163",
+        "wcagLevel": "AAA",
+        "title": "Dimensioni e offset target-area",
+        "purpose": "Verificare dimensioni e offset area target",
+        "procedure": "Target area di almeno 24 per 24 px.",
+        "category": "M",
+        "tags": [
+            "presentation",
+            "css"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    },
+    {
+        "index": "164",
+        "wcagLevel": "A",
+        "title": "Inserimenti di dati ridondanti",
+        "purpose": "Verificare inserimenti di dati ridondanti richiesti all'utente",
+        "procedure": "Informazioni già inserite dall'utente o fornite all'utente nello stesso processo devono poter essere: auto popolate o fornite come selezione all'utente;",
+        "category": "M",
+        "tags": [
+            "behavior",
+            "contents",
+            "data",
+            "cognitive-overload"
+        ],
+        "isMet": false,
+        "isApplicable": true
+    }
+]

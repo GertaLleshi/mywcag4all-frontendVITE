@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Manual",
+    "abbr": "M",
+    "point": 1
+  },
+  {
+    "title": "Semi-Automatic",
+    "abbr": "S",
+    "point": 2
+  },
+  {
+    "title": "Automatic",
+    "abbr": "A",
+    "point": 3
+  }
+]

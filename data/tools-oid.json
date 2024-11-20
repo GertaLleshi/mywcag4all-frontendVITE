@@ -1,0 +1,1243 @@
+[
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc517"
+    },
+    "name": "ColorA11y",
+    "url": "https://color.a11y.com/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "color-contrast"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 0
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc518"
+    },
+    "name": "Coulor color contrast analyser",
+    "url": "https://www.tpgi.com/color-color-contrast-checker/",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db"
+    ],
+    "tags": [
+      "color-contrast"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f4",
+    "source_code": "https://github.com/ThePacielloGroup/CCAe",
+    "index": 1
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc519"
+    },
+    "name": "Contrast checker",
+    "url": "https://webaim.org/resources/color-contrast-checker/",
+    "classes": [
+      "656c5320ee34210829d353e6",
+      "656c5320ee34210829d353d2"
+    ],
+    "tags": [
+      "color-contrast"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 2
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc51a"
+    },
+    "name": "Color Contrast Checker",
+    "url": "https://coolors.co/color-contrast-checker/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "color",
+      "font size",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 3
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc51b"
+    },
+    "name": "Link color Contrast checker",
+    "url": "https://webaim.org/resources/linkcolor-contrastchecker/",
+    "classes": [
+      "656c5320ee34210829d353e6",
+      "656c5320ee34210829d353d2"
+    ],
+    "tags": [
+      "color",
+      "level",
+      "link",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 4
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc51c"
+    },
+    "name": "Color Contrast Checker",
+    "url": "https://chrome.google.com/webstore/detail/colour-color-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "color",
+      "wcag level",
+      "font",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/Pushedskydiver/Colour-Contrast-Checker",
+    "index": 5
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc51d"
+    },
+    "name": "Color Contrast  Checker",
+    "url": "https://colourcolor-contrast.cc/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "color",
+      "level",
+      "font size",
+      "font",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/Pushedskydiver/Colour-Contrast-Checker",
+    "index": 6
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc51e"
+    },
+    "name": "WCAG Contrast Checker",
+    "url": "https://addons.mozilla.org/it/firefox/addon/wcag-color-contrast-checker/",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353de"
+    ],
+    "tags": [
+      "color",
+      "wcag level",
+      "font size",
+      "vision simulator",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 7
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc51f"
+    },
+    "name": "WCAG Contrast Checker",
+    "url": "https://chrome.google.com/webstore/detail/wcag-color-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "color",
+      "wcag level",
+      "font size",
+      "vision simulator",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 8
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc520"
+    },
+    "name": "WCAG Contrast Checker",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/wcag-color-color-contrast-check/idahaggnlnekelhgplklhfpchbfdmkjp",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353e0"
+    ],
+    "tags": [
+      "color",
+      "wcag level",
+      "font size",
+      "vision simulator",
+      "color picker"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 9
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc521"
+    },
+    "name": "Accessible color palette",
+    "url": "https://pa11y.vercel.app",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "color color-contrast",
+      "wcag level"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/j0lv3r4/pa11y",
+    "index": 10
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc522"
+    },
+    "name": "Readability Test Web FX",
+    "url": "https://www.webfx.com/tools/read-able/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "readability"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 11
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc523"
+    },
+    "name": "Readability Test of a Website",
+    "url": "https://juicystudio.com/services/readability.php#readweb",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "readability"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 12
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc524"
+    },
+    "name": "Calcolo indice leggibilità",
+    "url": "https://www.dogmadynamics.com/calcolo-indice-lettura-facile.html",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "readability"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 13
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc525"
+    },
+    "name": "Readability Score",
+    "url": "https://chrome.google.com/webstore/detail/readability-score/pfnlengicohogdjcldalmpmdnaecndhf",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "readability"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 14
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc526"
+    },
+    "name": "TRAY Readability tool",
+    "url": "https://chrome.google.com/webstore/detail/tray-readability-tool/eccbjfaplogblgjpopbihpgfgmlgjamf/related",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "readability"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 15
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc527"
+    },
+    "name": "Who can use",
+    "url": "https://whocanuse.com",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/CoreyGinnivan/whocanuse",
+    "index": 16
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc528"
+    },
+    "name": "Web Disability Simulator",
+    "url": "https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla/related",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "vision simulator"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fb",
+    "source_code": "https://github.com/Metamatrix/web-disability-simulator",
+    "index": 17
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc529"
+    },
+    "name": "Funkify – Disability Simulator",
+    "url": "https:/www.funkify.org",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "vision simulator"
+    ],
+    "price": "free, priced",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 18
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc52a"
+    },
+    "name": "Silktide - WA simulator",
+    "url": "https://chrome.google.com/webstore/detail/silktide-website-accessib/okcpiimdfkpkjcbihbmhppldhiebhhaf",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "vision simulator"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 19
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc52b"
+    },
+    "name": "Toptal",
+    "url": "https://www.toptal.com/designers/colorfilter/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "vision simulator"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 20
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc52c"
+    },
+    "name": "visolve",
+    "url": "https://www.ryobi.co.jp/products/visolve/en/",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db"
+    ],
+    "tags": [
+      "vision simulator"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 21
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc52d"
+    },
+    "name": "PEAT",
+    "url": "https://trace.umd.edu/PEAT/",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db",
+      "656c5320ee34210829d353e7"
+    ],
+    "tags": [
+      "epilepsy condition evaluation"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 22
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc52e"
+    },
+    "name": "ColorOracle",
+    "url": "http://colororacle.org",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db",
+      "656c5320ee34210829d353e1"
+    ],
+    "tags": [
+      "vision simulator"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/nvkelso/color-oracle-java",
+    "index": 23
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc52f"
+    },
+    "name": "Html validator",
+    "url": "https://validator.w3.org/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "validator",
+      "html5"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f6",
+    "source_code": "https://github.com/w3c/markup-validator",
+    "index": 24
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc530"
+    },
+    "name": "Css validator",
+    "url": "https://jigsaw.w3.org/css-validator/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "validator",
+      "css3"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f6",
+    "source_code": "https://github.com/w3c/css-validator",
+    "index": 25
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc531"
+    },
+    "name": "Html experimental validator",
+    "url": "https://validator.w3.org/nu/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "validator",
+      "html"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/validator/validator",
+    "index": 26
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc532"
+    },
+    "name": "i18n-checker",
+    "url": "https://validator.w3.org/i18n-checker/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "internationalisation",
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f6",
+    "source_code": "https://github.com/w3c/i18n-checker",
+    "index": 27
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc533"
+    },
+    "name": "CheckLink",
+    "url": "https://validator.w3.org/checklink",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "link",
+      "anchors"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f6",
+    "source_code": "https://github.com/w3c/link-checker",
+    "index": 28
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc534"
+    },
+    "name": "nerdefocus",
+    "url": "https://chrome.google.com/webstore/detail/nerdefocus/lpfiljldhgjecfepfljnbjnbjfhennpd",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "focus"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/wizzyfx/nerdeFocusPlugIn",
+    "index": 29
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc535"
+    },
+    "name": "tab11t",
+    "url": "https://chrome.google.com/webstore/detail/taba11y/aocppmckdocdjkphmofnklcjhdidgmga?hl=en",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "tab order"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 30
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc536"
+    },
+    "name": "Table validator",
+    "url": "https://wet-boew.github.io/v4.0-ci/demos/tablevalidator/tablevalidator-en.html",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "table"
+    ],
+    "price": "free",
+    "license": "View license",
+    "source_code": "https://github.com/wet-boew/wet-boew",
+    "index": 31
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc537"
+    },
+    "name": "headingsMap",
+    "url": "https://addons.mozilla.org/es/firefox/addon/headingsmap/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "headings"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 32
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc538"
+    },
+    "name": "can i use",
+    "url": "https://caniuse.com/ciu/index",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "html tag"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f2",
+    "source_code": "https://github.com/Fyrd/caniuse",
+    "index": 33
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc539"
+    },
+    "name": "Pa11y Dashboard",
+    "url": "https://pa11y.org/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "monitoring"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f4",
+    "source_code": "https://github.com/pa11y/pa11y-dashboard",
+    "index": 34
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc53a"
+    },
+    "name": "Pa11y Tester",
+    "url": "https://pa11y.org/",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db",
+      "656c5320ee34210829d353e1",
+      "656c5320ee34210829d353d7"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f4",
+    "source_code": "https://github.com/pa11y/pa11y",
+    "index": 35
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc53b"
+    },
+    "name": "Pa11y Webservice",
+    "url": "https://pa11y.org/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "service"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f4",
+    "source_code": "https://github.com/pa11y/pa11y-webservice",
+    "index": 36
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc53c"
+    },
+    "name": "Tanaguru",
+    "url": "https://www.tanaguru.com/en/open-source-tools-tanaguru/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "monitoring"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f8",
+    "source_code": "https://github.com/Tanaguru/Tanaguru",
+    "index": 37
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc53d"
+    },
+    "name": "A11ygato",
+    "url": "https://opensource.orange.com/en/news/a11ygato-accessbility-dashboard-for-website-monitoring/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "monitoring"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f4",
+    "source_code": "https://github.com/Orange-OpenSource/a11ygato-platform",
+    "index": 38
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc53e"
+    },
+    "name": "Web Accessibility",
+    "url": "https://www.webaccessibility.com",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool",
+      "monitoring"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 39
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc53f"
+    },
+    "name": "AInspector Sidebar",
+    "url": "https://ainspector.github.io/",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353de"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f9",
+    "source_code": "https://github.com/ainspector/firefox-ainspector-wcag",
+    "index": 40
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc540"
+    },
+    "name": "Functional Accessibility Evaluator (",
+    "url": "https://fae.disability.illinois.edu/anonymous/?Anonymous%20Report=/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f3",
+    "source_code": "https://github.com/opena11y/fae2",
+    "index": 41
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc541"
+    },
+    "name": "Web Developer",
+    "url": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "evaluation tool",
+      "dev tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f4",
+    "source_code": "https://github.com/chrispederick/web-developer/",
+    "index": 42
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc542"
+    },
+    "name": "Wave Web Accessibility Evaluation Tool",
+    "url": "https://wave.webaim.org/",
+    "classes": [
+      "656c5320ee34210829d353e6",
+      "656c5320ee34210829d353d2",
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9",
+      "656c5320ee34210829d353de",
+      "656c5320ee34210829d353dc"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 43
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc543"
+    },
+    "name": "Total Validator",
+    "url": "https://www.totalvalidator.com/",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db",
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9",
+      "656c5320ee34210829d353de",
+      "656c5320ee34210829d353dc"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free, priced",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 44
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc544"
+    },
+    "name": "AccessibilityChecker.org",
+    "url": "https://www.accessibilitychecker.org/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool",
+      "legal advising"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 45
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc545"
+    },
+    "name": "Sa11y",
+    "url": "https://ryersondmp.github.io/sa11y/",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db",
+      "656c5320ee34210829d353d5"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/ryersondmp/sa11y",
+    "index": 46
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc546"
+    },
+    "name": "A11y.css",
+    "url": "https://chrome.google.com/webstore/detail/a11ycss/iolfinldndiiobhednboghogkiopppid",
+    "classes": [
+      "656c5320ee34210829d353e2",
+      "656c5320ee34210829d353db",
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9",
+      "656c5320ee34210829d353de",
+      "656c5320ee34210829d353d2"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/ffoodd/a11y.css",
+    "index": 47
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc547"
+    },
+    "name": "ARC Toolkit",
+    "url": "https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce/related?hl=en",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 48
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc548"
+    },
+    "name": "QValWeb",
+    "url": "http://qualweb.di.fc.ul.pt/evaluator/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fb",
+    "source_code": "https://github.com/qualweb",
+    "index": 49
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc549"
+    },
+    "name": "Mauve++",
+    "url": "https://mauve.isti.cnr.it/singleValidationResults.jsp",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 50
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc54a"
+    },
+    "name": "Asqatasun",
+    "url": "https://doc.asqatasun.org/v5/en/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f8",
+    "source_code": "https://gitlab.com/asqatasun/Asqatasun/-/tree/master",
+    "index": 51
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc54b"
+    },
+    "name": "Tawids",
+    "url": "https://www.tawdis.net/?lang=en",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 52
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc54c"
+    },
+    "name": "Visual ARIA",
+    "url": "http://www.whatsock.com/",
+    "classes": [
+      "656c5320ee34210829d353d5",
+      "656c5320ee34210829d353d9"
+    ],
+    "tags": [
+      "aria"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/accdc/visual-aria",
+    "index": 53
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc54d"
+    },
+    "name": "Accessibility Panel",
+    "url": "https://developer.chrome.com/docs/devtools/accessibility/reference/#pane",
+    "classes": [
+      "656c5320ee34210829d353d4",
+      "656c5320ee34210829d353d8"
+    ],
+    "tags": [
+      "aria",
+      "accessibility tree",
+      "order"
+    ],
+    "price": "free",
+    "license": "656c9110ee34210829d353fd",
+    "source_code": "https://github.com/GoogleChrome",
+    "index": 54
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc54e"
+    },
+    "name": "Lighthouse - chrome devtools",
+    "url": "https://developers.google.com/web/tools/lighthouse",
+    "classes": [
+      "656c5320ee34210829d353d4",
+      "656c5320ee34210829d353d8"
+    ],
+    "tags": [
+      "evaluation tool"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f3",
+    "source_code": "https://github.com/GoogleChrome/lighthouse",
+    "index": 55
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc54f"
+    },
+    "name": "Accessibility Inspector",
+    "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+    "classes": [
+      "656c5320ee34210829d353d4",
+      "656c5320ee34210829d353dd"
+    ],
+    "tags": [
+      "evaluation tool",
+      "vision simulator"
+    ],
+    "price": "free",
+    "license": "656c9110ee34210829d353fd",
+    "source_code": "https://github.com/mozilla",
+    "index": 56
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc550"
+    },
+    "name": "Atom Accessibility Checker",
+    "url": "https://atom.io/packages/web-accessibility-checker",
+    "classes": [
+      "656c5320ee34210829d353d3"
+    ],
+    "tags": [
+      "static code analyzer"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/web-weber/web-accessibility-checker",
+    "index": 57
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc551"
+    },
+    "name": "Web Accessibility Extension - Visual Studio Code",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MaxvanderSchee.web-accessibility",
+    "classes": [
+      "656c5320ee34210829d353e4"
+    ],
+    "tags": [
+      "static code analyzer"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353fa",
+    "source_code": "https://github.com/mvdschee/web-accessibility",
+    "index": 58
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc552"
+    },
+    "name": "Web Accessibility Extension - Visual Studio Code",
+    "url": "https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter",
+    "classes": [
+      "656c5320ee34210829d353e5"
+    ],
+    "tags": [
+      "static code analyzer"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 59
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc553"
+    },
+    "name": "Axe Linter github",
+    "url": "https://github.com/marketplace/axe-linter",
+    "classes": [
+      "656c5320ee34210829d353df"
+    ],
+    "tags": [
+      "static code analyzer"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 60
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc554"
+    },
+    "name": "Pa11y CI",
+    "url": "https://pa11y.org/",
+    "classes": [
+      "656c5320ee34210829d353d6"
+    ],
+    "tags": [
+      "testing"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f5",
+    "source_code": "https://github.com/pa11y/pa11y-ci",
+    "index": 61
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc555"
+    },
+    "name": "HTML code analyzer",
+    "url": "https://rules.sonarsource.com/html/tag/accessibility/",
+    "classes": [
+      "656c5320ee34210829d353da",
+      "656c5320ee34210829d353e3"
+    ],
+    "tags": [
+      "static code analyzer"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 62
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc556"
+    },
+    "name": "chrome devtools - Device toolbar",
+    "url": "https://developer.chrome.com/docs/devtools/device-mode/#viewport",
+    "classes": [
+      "656c5320ee34210829d353d4",
+      "656c5320ee34210829d353d8"
+    ],
+    "tags": [
+      "mobile view "
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "https://github.com/googlechrome",
+    "index": 63
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc557"
+    },
+    "name": "moiReady",
+    "url": "https://ready.mobi/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "performance"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 64
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc558"
+    },
+    "name": "responsinator",
+    "url": "https://www.responsinator.com/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "mobile view "
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 65
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc559"
+    },
+    "name": "PageSpeed Insights",
+    "url": "https://developers.google.com/speed/pagespeed/insights/?hl=it",
+    "classes": [
+      "656c5320ee34210829d353e6",
+      "656c5320ee34210829d353d2"
+    ],
+    "tags": [
+      "performance"
+    ],
+    "price": "free",
+    "license": "656c9110ee34210829d353fd",
+    "source_code": "",
+    "index": 66
+  },
+  {
+    "_id": {
+      "$oid": "6522ca69b0c8e50007cdc55a"
+    },
+    "name": "Gtmetrix",
+    "url": "https://gtmetrix.com/",
+    "classes": [
+      "656c5320ee34210829d353e6"
+    ],
+    "tags": [
+      "performance"
+    ],
+    "price": "free",
+    "license": "656c887eee34210829d353f7",
+    "source_code": "",
+    "index": 67
+  }
+]
